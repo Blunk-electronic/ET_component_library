@@ -1,0 +1,31 @@
+-- SYSTEM ET device
+-- date 2019-02-21T08:33:02
+-- ====================================================================================================
+
+prefix R
+appearance sch_pcb
+
+[VARIANTS BEGIN]
+	[VARIANT BEGIN]
+		name S_0805
+		package_model $HOME/git/BEL/ET_component_library/packages/S_0805.pac
+		[TERMINAL_PORT_MAP BEGIN]
+			terminal 1 unit 1 port 1
+			terminal 2 unit 1 port 2
+		[TERMINAL_PORT_MAP END]
+	[VARIANT END]
+[VARIANTS END]
+
+[UNITS_EXTERNAL BEGIN]
+	[UNIT BEGIN]
+		name 1
+		position x 0.00 y 0.00
+		swap_level 1
+		add_level next
+		file $HOME/git/BEL/ET_component_library/symbols/resistors/resistor_single.sym
+	[UNIT END]				
+[UNITS_EXTERNAL END]
+
+-- ====================================================================================================
+-- device model file end
+

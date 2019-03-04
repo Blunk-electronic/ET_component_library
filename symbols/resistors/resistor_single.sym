@@ -1,0 +1,82 @@
+-- SYSTEM ET symbol
+-- date 2019-01-26T16:54:37
+-- ======================================================================================================================================================
+
+appearance sch_pcb
+
+[DRAW BEGIN]
+	[LINE BEGIN]
+		start x -5 y 2.5
+		end   x  5 y 2.5
+		width 0.00
+	[LINE END]
+	[LINE BEGIN]
+		start x -5 y -2.5
+		end   x  5 y -2.5
+		width 0.00
+	[LINE END]
+	[LINE BEGIN]
+		start x -5 y  2.5
+		end   x -5 y -2.5
+		width 0.00
+	[LINE END]
+	[LINE BEGIN]
+		start x 5 y  2.5
+		end   x 5 y -2.5
+		width 0.00
+	[LINE END]	
+[DRAW END]
+
+[TEXTS BEGIN]
+[TEXTS END]
+
+[PLACEHOLDERS BEGIN]
+	[PLACEHOLDER BEGIN]
+		meaning reference
+		position x 0 y 3
+		size 1.30
+		line_width 0.00
+		rotation 0.0
+		style normal
+		alignment horizontal center vertical bottom
+	[PLACEHOLDER END]
+	[PLACEHOLDER BEGIN]
+		meaning value
+		position x 0 y -3
+		size 1.30
+		line_width 0.00
+		rotation 0.0
+		style normal
+		alignment horizontal center vertical bottom
+	[PLACEHOLDER END]
+[PLACEHOLDERS END]
+
+[PORTS BEGIN]
+	[PORT BEGIN]
+		name 1
+		position x -10 y 0
+		direction passive
+		length 5
+		rotation 0
+		port_name_visible no
+		port_name_size 1.30
+		terminal_name_visible no
+		terminal_name_size 1.30
+	[PORT END]
+	[PORT BEGIN]
+		name 2
+		position x 10 y 0
+		direction passive
+		length 5
+		rotation 180
+		port_name_visible no
+		port_name_size 1.30
+		terminal_name_visible no
+		terminal_name_size 1.30
+	[PORT END]
+[PORTS END]
+
+
+-- ======================================================================================================================================================
+-- symbol file end
+
