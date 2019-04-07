@@ -36,7 +36,7 @@ appearance sch_pcb
 		position x 0 y 3
 		size 1.30
 		line_width 0.00
-		rotation 0.0
+		rotation 0
 		style normal
 		alignment horizontal center vertical bottom
 	[PLACEHOLDER END]
@@ -45,7 +45,7 @@ appearance sch_pcb
 		position x 0 y -3
 		size 1.30
 		line_width 0.00
-		rotation 0.0
+		rotation 0
 		style normal
 		alignment horizontal center vertical bottom
 	[PLACEHOLDER END]
