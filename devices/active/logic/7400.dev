@@ -7,8 +7,8 @@ appearance sch_pcb
 value 7400
 [VARIANTS BEGIN]
 	[VARIANT BEGIN]
-		name S_SO14
-		package_model libraries/packages/__#__#lbr#bel_ic_pretty#S_SO14.pac
+		name D
+		package_model $HOME/git/BEL/ET_component_library/packages/S_SO14.pac
 		[TERMINAL_PORT_MAP BEGIN]
 			terminal 1 unit 1 port I1A
 			terminal 10 unit 3 port I3A
@@ -67,7 +67,7 @@ value 7400
 					position x -3.17 y -6.98
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal left vertical bottom
 				[PLACEHOLDER END]
@@ -76,7 +76,7 @@ value 7400
 					position x -3.17 y -8.89
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal left vertical bottom
 				[PLACEHOLDER END]
@@ -85,7 +85,7 @@ value 7400
 					position x 0.00 y 0.00
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal center vertical center
 				[PLACEHOLDER END]
@@ -98,7 +98,7 @@ value 7400
 					sensitivity_edge none
 					sensitivity_level high
 					length 7.62
-					rotation 180.0
+					rotation 180
 					port_name_visible no
 					port_name_size 1.30
 					terminal_name_visible yes
@@ -111,7 +111,7 @@ value 7400
 					sensitivity_edge none
 					sensitivity_level high
 					length 7.62
-					rotation 180.0
+					rotation 180
 					port_name_visible no
 					port_name_size 1.30
 					terminal_name_visible yes
@@ -125,7 +125,7 @@ value 7400
 					tristate no
 					weakness none
 					length 7.62
-					rotation 0.0
+					rotation 0
 					port_name_visible no
 					port_name_size 1.30
 					terminal_name_visible yes
@@ -173,7 +173,7 @@ value 7400
 					position x -3.17 y -6.98
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal left vertical bottom
 				[PLACEHOLDER END]
@@ -182,7 +182,7 @@ value 7400
 					position x -3.17 y -8.89
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal left vertical bottom
 				[PLACEHOLDER END]
@@ -191,7 +191,7 @@ value 7400
 					position x 0.00 y 0.00
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal center vertical center
 				[PLACEHOLDER END]
@@ -204,7 +204,7 @@ value 7400
 					sensitivity_edge none
 					sensitivity_level high
 					length 7.62
-					rotation 180.0
+					rotation 180
 					port_name_visible no
 					port_name_size 1.30
 					terminal_name_visible yes
@@ -217,7 +217,7 @@ value 7400
 					sensitivity_edge none
 					sensitivity_level high
 					length 7.62
-					rotation 180.0
+					rotation 180
 					port_name_visible no
 					port_name_size 1.30
 					terminal_name_visible yes
@@ -231,7 +231,7 @@ value 7400
 					tristate no
 					weakness none
 					length 7.62
-					rotation 0.0
+					rotation 0
 					port_name_visible no
 					port_name_size 1.30
 					terminal_name_visible yes
@@ -279,7 +279,7 @@ value 7400
 					position x -3.17 y -6.98
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal left vertical bottom
 				[PLACEHOLDER END]
@@ -288,7 +288,7 @@ value 7400
 					position x -3.17 y -8.89
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal left vertical bottom
 				[PLACEHOLDER END]
@@ -297,7 +297,7 @@ value 7400
 					position x 0.00 y 0.00
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal center vertical center
 				[PLACEHOLDER END]
@@ -310,7 +310,7 @@ value 7400
 					sensitivity_edge none
 					sensitivity_level high
 					length 7.62
-					rotation 180.0
+					rotation 180
 					port_name_visible no
 					port_name_size 1.30
 					terminal_name_visible yes
@@ -323,7 +323,7 @@ value 7400
 					sensitivity_edge none
 					sensitivity_level high
 					length 7.62
-					rotation 180.0
+					rotation 180
 					port_name_visible no
 					port_name_size 1.30
 					terminal_name_visible yes
@@ -337,7 +337,7 @@ value 7400
 					tristate no
 					weakness none
 					length 7.62
-					rotation 0.0
+					rotation 0
 					port_name_visible no
 					port_name_size 1.30
 					terminal_name_visible yes
@@ -385,7 +385,7 @@ value 7400
 					position x -3.17 y -6.98
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal left vertical bottom
 				[PLACEHOLDER END]
@@ -394,7 +394,7 @@ value 7400
 					position x -3.17 y -8.89
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal left vertical bottom
 				[PLACEHOLDER END]
@@ -403,7 +403,7 @@ value 7400
 					position x 0.00 y 0.00
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal center vertical center
 				[PLACEHOLDER END]
@@ -416,7 +416,7 @@ value 7400
 					sensitivity_edge none
 					sensitivity_level high
 					length 7.62
-					rotation 180.0
+					rotation 180
 					port_name_visible no
 					port_name_size 1.30
 					terminal_name_visible yes
@@ -429,7 +429,7 @@ value 7400
 					sensitivity_edge none
 					sensitivity_level high
 					length 7.62
-					rotation 180.0
+					rotation 180
 					port_name_visible no
 					port_name_size 1.30
 					terminal_name_visible yes
@@ -443,7 +443,7 @@ value 7400
 					tristate no
 					weakness none
 					length 7.62
-					rotation 0.0
+					rotation 0
 					port_name_visible no
 					port_name_size 1.30
 					terminal_name_visible yes
@@ -469,7 +469,7 @@ value 7400
 					position x -3.17 y -6.98
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal left vertical bottom
 				[PLACEHOLDER END]
@@ -478,7 +478,7 @@ value 7400
 					position x -3.17 y -8.89
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal left vertical bottom
 				[PLACEHOLDER END]
@@ -487,7 +487,7 @@ value 7400
 					position x 0.00 y 0.00
 					size 1.30
 					line_width 0.00
-					rotation 0.0
+					rotation 0
 					style normal
 					alignment horizontal center vertical center
 				[PLACEHOLDER END]
@@ -499,7 +499,7 @@ value 7400
 					direction power_in
 					level zero
 					length 0.00
-					rotation 270.0
+					rotation 270
 					port_name_visible no
 					port_name_size 1.30
 					terminal_name_visible yes
@@ -511,7 +511,7 @@ value 7400
 					direction power_in
 					level zero
 					length 0.00
-					rotation 90.0
+					rotation 90
 					port_name_visible no
 					port_name_size 1.30
 					terminal_name_visible yes
