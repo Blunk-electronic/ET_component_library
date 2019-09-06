@@ -38,7 +38,7 @@ technology smt
 			width 0.150
 		[LINE END]
 		[PLACEHOLDER BEGIN]
-			meaning reference
+			meaning name
 			position x 0.000 y -5.225 rotation 0.00
 			size width 1.000 height 1.000
 			line_width 0.150

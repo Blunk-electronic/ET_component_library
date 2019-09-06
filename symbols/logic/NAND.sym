@@ -32,7 +32,7 @@ appearance sch_pcb
 [TEXTS END]
 [PLACEHOLDERS BEGIN]
     [PLACEHOLDER BEGIN]
-        meaning reference
+        meaning name
         position x -3.17 y -6.98
         size 1.30
         line_width 0.00
