@@ -66,22 +66,18 @@ technology smt
 		[LINE BEGIN]
 			start x -1.600 y -1.000
 			end x 1.600 y -1.000
-			width 0.150
 		[LINE END]
 		[LINE BEGIN]
 			start x -1.600 y 1.000
 			end x 1.600 y 1.000
-			width 0.150
 		[LINE END]
 		[LINE BEGIN]
 			start x -1.600 y -1.000
 			end x -1.600 y 1.000
-			width 0.150
 		[LINE END]
 		[LINE BEGIN]
 			start x 1.600 y -1.000
 			end x 1.600 y 1.000
-			width 0.150
 		[LINE END]
 	[TOP END]
 	[BOTTOM BEGIN]
