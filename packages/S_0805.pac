@@ -20,7 +20,7 @@ technology smt
 		[PLACEHOLDER BEGIN]
 			meaning name
 			position x 0.000 y -2.100 rotation 0.00
-			size width 1.000 height 1.000
+			size 1.000
 			line_width 0.150
 			alignment horizontal center vertical bottom
 		[PLACEHOLDER END]
@@ -53,7 +53,7 @@ technology smt
 		[PLACEHOLDER BEGIN]
 			meaning value
 			position x 0.000 y 2.100 rotation 0.00
-			size width 1.000 height 1.000
+			size 1.000
 			line_width 0.150
 			alignment horizontal center vertical bottom
 		[PLACEHOLDER END]
@@ -165,8 +165,19 @@ technology smt
 [ROUTE_RESTRICT END]
 [VIA_RESTRICT BEGIN]
 [VIA_RESTRICT END]
+
 [PCB_CONTOURS_NON_PLATED BEGIN]
+	[ARC BEGIN]
+		center x 150.000 y 75.000
+		start x 155.000 y 70.000
+		end x 0.000 y 210.000
+	[ARC END]
+	[LINE BEGIN]
+		start x -0.350 y 0.650
+		end x -0.350 y -0.650
+	[LINE END]
 [PCB_CONTOURS_NON_PLATED END]
+
 [TERMINALS BEGIN]
 	[TERMINAL BEGIN]
 		name 1
@@ -194,31 +205,85 @@ technology smt
 		stop_mask open
 		solder_paste applied
 	[TERMINAL END]
+
 	[TERMINAL BEGIN]
 		name 2
-		technology smt
+		technology tht
 		position x 0.950 y 0.000 rotation 0.00
-		[PAD_CONTOURS_SMT BEGIN]
+		[PAD_CONTOURS_THT BEGIN]
+		
+			[TOP BEGIN]
+				[LINE BEGIN]
+					start x -0.350 y 0.650
+					end x -0.350 y -0.650
+				[LINE END]
+				[LINE BEGIN]
+					start x 0.350 y 0.650
+					end x 0.350 y -0.650
+				[LINE END]
+				[LINE BEGIN]
+					start x -0.350 y 0.650
+					end x 0.350 y 0.650
+				[LINE END]
+				[LINE BEGIN]
+					start x -0.350 y -0.650
+					end x 0.350 y -0.650
+				[LINE END]
+			[TOP END]
+
+			[BOTTOM BEGIN]
+				[LINE BEGIN]
+					start x -0.350 y 0.650
+					end x -0.350 y -0.650
+				[LINE END]
+				[LINE BEGIN]
+					start x 0.350 y 0.650
+					end x 0.350 y -0.650
+				[LINE END]
+				[LINE BEGIN]
+					start x -0.350 y 0.650
+					end x 0.350 y 0.650
+				[LINE END]
+				[LINE BEGIN]
+					start x -0.350 y -0.650
+					end x 0.350 y -0.650
+				[LINE END]
+			[BOTTOM END]
+		
+		[PAD_CONTOURS_THT END]
+		
+		width_inner_layers 1.000
+		hole milled
+		--drill_size 1.000 #if hole drilled
+		
+		[MILLINGS BEGIN]
 			[LINE BEGIN]
-				start x -0.350 y 0.650
-				end x -0.350 y -0.650
+				start x -0.400 y 1.200
+				end x -0.400 y -0.800
 			[LINE END]
 			[LINE BEGIN]
-				start x 0.350 y 0.650
-				end x 0.350 y -0.650
+				start x 0.600 y 1.200
+				end x 0.600 y -0.800
 			[LINE END]
 			[LINE BEGIN]
-				start x -0.350 y 0.650
-				end x 0.350 y 0.650
+				start x -0.400 y 1.200
+				end x 0.600 y 1.200
 			[LINE END]
+			[CIRCLE BEGIN]
+				center x 45 y 4.2
+				radius 10
+			[CIRCLE END]
 			[LINE BEGIN]
-				start x -0.350 y -0.650
-				end x 0.350 y -0.650
+				start x -0.400 y -0.800
+				end x 0.600 y -0.800
 			[LINE END]
-		[PAD_CONTOURS_SMT END]
-		face top
-		stop_mask open
-		solder_paste applied
+			[ARC BEGIN]
+				center x 0.100 y 1.200
+				start x -0.900 y 1.200
+				end x 1.100 y 1.200
+			[ARC END]
+		[MILLINGS END]
+
 	[TERMINAL END]
 [TERMINALS END]
 
