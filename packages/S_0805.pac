@@ -1,5 +1,5 @@
 -- SYSTEM ET package
--- date 2019-02-21T08:33:02
+-- date 2019-10-21T11:44:48
 -- ====================================================================================================
 
 description ""
@@ -95,11 +95,10 @@ technology smt
 				[ARC END]
 				[CIRCLE BEGIN]
 					center x 10.000 y 10.000
-					radius 20
+					radius 20.000
 				[CIRCLE END]
-			[CONTOURS END]				
+			[CONTOURS END]
 		[FILL_ZONE END]
-
 		[CUTOUT_ZONE BEGIN]
 			[CONTOURS BEGIN]
 				[LINE BEGIN]
@@ -113,22 +112,20 @@ technology smt
 				[ARC END]
 				[CIRCLE BEGIN]
 					center x 10.000 y 10.000
-					radius 20
+					radius 20.000
 				[CIRCLE END]
-			[CONTOURS END]				
+			[CONTOURS END]
 		[CUTOUT_ZONE END]
-		
 	[BOTTOM END]
 [KEEPOUT END]
-
 [COPPER BEGIN]
 	[TOP BEGIN]
 		[FILL_ZONE BEGIN]
-			fill_style solid
-			hatching_line_width 0.508
-			hatching_line_spacing 2.000
 			corner_easing fillet
 			easing_radius 1.000
+			min_width 0.050
+			isolation 0.050
+			fill_style solid
 			[CONTOURS BEGIN]
 				[LINE BEGIN]
 					start x 1.000 y 2.000
@@ -141,9 +138,9 @@ technology smt
 				[ARC END]
 				[CIRCLE BEGIN]
 					center x 10.000 y 10.000
-					radius 20
+					radius 20.000
 				[CIRCLE END]
-			[CONTOURS END]				
+			[CONTOURS END]
 		[FILL_ZONE END]
 	[TOP END]
 	[BOTTOM BEGIN]
@@ -165,19 +162,17 @@ technology smt
 [ROUTE_RESTRICT END]
 [VIA_RESTRICT BEGIN]
 [VIA_RESTRICT END]
-
 [PCB_CONTOURS_NON_PLATED BEGIN]
+	[LINE BEGIN]
+		start x -0.350 y 0.650
+		end x -0.350 y -0.650
+	[LINE END]
 	[ARC BEGIN]
 		center x 150.000 y 75.000
 		start x 155.000 y 70.000
 		end x 0.000 y 210.000
 	[ARC END]
-	[LINE BEGIN]
-		start x -0.350 y 0.650
-		end x -0.350 y -0.650
-	[LINE END]
 [PCB_CONTOURS_NON_PLATED END]
-
 [TERMINALS BEGIN]
 	[TERMINAL BEGIN]
 		name 1
@@ -205,13 +200,11 @@ technology smt
 		stop_mask open
 		solder_paste applied
 	[TERMINAL END]
-
 	[TERMINAL BEGIN]
 		name 2
 		technology tht
 		position x 0.950 y 0.000 rotation 0.00
 		[PAD_CONTOURS_THT BEGIN]
-		
 			[TOP BEGIN]
 				[LINE BEGIN]
 					start x -0.350 y 0.650
@@ -230,7 +223,6 @@ technology smt
 					end x 0.350 y -0.650
 				[LINE END]
 			[TOP END]
-
 			[BOTTOM BEGIN]
 				[LINE BEGIN]
 					start x -0.350 y 0.650
@@ -249,13 +241,9 @@ technology smt
 					end x 0.350 y -0.650
 				[LINE END]
 			[BOTTOM END]
-		
 		[PAD_CONTOURS_THT END]
-		
 		width_inner_layers 1.000
 		hole milled
-		--drill_size 1.000 #if hole drilled
-		
 		[MILLINGS BEGIN]
 			[LINE BEGIN]
 				start x -0.400 y 1.200
@@ -269,10 +257,6 @@ technology smt
 				start x -0.400 y 1.200
 				end x 0.600 y 1.200
 			[LINE END]
-			[CIRCLE BEGIN]
-				center x 45 y 4.2
-				radius 10
-			[CIRCLE END]
 			[LINE BEGIN]
 				start x -0.400 y -0.800
 				end x 0.600 y -0.800
@@ -282,8 +266,11 @@ technology smt
 				start x -0.900 y 1.200
 				end x 1.100 y 1.200
 			[ARC END]
+			[CIRCLE BEGIN]
+				center x 45.000 y 4.200
+				radius 10.000
+			[CIRCLE END]
 		[MILLINGS END]
-
 	[TERMINAL END]
 [TERMINALS END]
 

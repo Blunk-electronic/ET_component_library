@@ -3,7 +3,7 @@
 -- ====================================================================================================
 
 prefix IC
-appearance sch_pcb
+appearance pcb
 value 7400
 [VARIANTS BEGIN]
 	[VARIANT BEGIN]

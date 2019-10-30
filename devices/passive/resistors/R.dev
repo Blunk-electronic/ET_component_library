@@ -3,7 +3,7 @@
 -- ====================================================================================================
 
 prefix R
-appearance sch_pcb
+appearance pcb
 
 [VARIANTS BEGIN]
 	[VARIANT BEGIN]
