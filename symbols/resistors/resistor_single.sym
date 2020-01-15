@@ -25,6 +25,16 @@ appearance pcb
 		end   x 5 y -2.5
 		width 0.00
 	[LINE END]	
+
+	-- for testing only
+	[ARC BEGIN]
+		center x 0.0 y 0.0
+		start x -5.0 y 0.0
+		end x 5.0 y 0.0
+		width 0.00
+		direction CW
+	[ARC END]
+		
 [DRAW END]
 
 [TEXTS BEGIN]

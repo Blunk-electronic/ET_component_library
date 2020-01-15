@@ -135,6 +135,7 @@ technology smt
 					center x 10.000 y 10.000
 					start x 10.000 y 0.000
 					end x 10.000 y 20.000
+					direction cw
 				[ARC END]
 				[CIRCLE BEGIN]
 					center x 10.000 y 10.000

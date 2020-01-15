@@ -471,6 +471,7 @@ technology smt
 				center x 0.000 y -0.700
 				start x -1.000 y -0.700
 				end x 1.000 y -0.700
+				direction ccw
 			[ARC END]
 			[ARC BEGIN]
 				center x 0.000 y 0.700
