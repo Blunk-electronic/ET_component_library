@@ -43,6 +43,12 @@ appearance pcb
 		direction CW
 	[ARC END]
 
+	[CIRCLE BEGIN]
+		center x 0.0 y 0.0
+		radius 10.0
+		width 0.3
+	[CIRCLE END]
+
 	
 [DRAW END]
 
