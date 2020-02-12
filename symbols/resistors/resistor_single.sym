@@ -48,11 +48,15 @@ appearance pcb
 		radius 10.0
 		width 0.3
 	[CIRCLE END]
-
 	
 [DRAW END]
 
 [TEXTS BEGIN]
+	[TEXT BEGIN]
+		position x 0.0 y -20.0
+		size 10.0
+		content "Test"
+	[TEXT END]
 [TEXTS END]
 
 [PLACEHOLDERS BEGIN]
