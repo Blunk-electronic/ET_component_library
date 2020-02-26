@@ -44,7 +44,7 @@ appearance pcb
 		line_width 0.20
 		rotation 0
 		style normal
-		alignment horizontal center vertical bottom
+		alignment horizontal center vertical center
 	[PLACEHOLDER END]
 	[PLACEHOLDER BEGIN]
 		meaning value
