@@ -2,7 +2,7 @@
 -- date 2019-01-26T16:54:37
 -- ======================================================================================================================================================
 
-appearance virtual
+appearance pcb
 
 [DRAW BEGIN]
 [DRAW END]
@@ -15,7 +15,7 @@ appearance virtual
         meaning name
         position x -3.17 y -6.98
         size 1.30
-        line_width 0.00
+        line_width 0.15
         rotation 0
         style normal
         alignment horizontal left vertical bottom
@@ -24,7 +24,7 @@ appearance virtual
         meaning value
         position x -3.17 y -8.89
         size 1.30
-        line_width 0.00
+        line_width 0.15
         rotation 0
         style normal
         alignment horizontal left vertical bottom
@@ -33,7 +33,7 @@ appearance virtual
         meaning purpose
         position x 0.00 y 0.00
         size 1.30
-        line_width 0.00
+        line_width 0.15
         rotation 0
         style normal
         alignment horizontal center vertical center

@@ -40,7 +40,7 @@ technology smt
 		[PLACEHOLDER BEGIN]
 			meaning name
 			position x 0.000 y -5.225 rotation 0.00
-			size width 1.000 height 1.000
+			size 1.000
 			line_width 0.150
 			alignment horizontal center vertical bottom
 		[PLACEHOLDER END]
@@ -53,7 +53,7 @@ technology smt
 		[PLACEHOLDER BEGIN]
 			meaning value
 			position x 0.000 y 0.000 rotation 90.00
-			size width 1.000 height 1.000
+			size 1.000
 			line_width 0.150
 			alignment horizontal center vertical bottom
 		[PLACEHOLDER END]

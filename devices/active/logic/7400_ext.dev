@@ -34,7 +34,7 @@ value 7400
 		position x 0.00 y 0.00
 		swap_level 0
 		add_level next
-		file $HOME/git/BEL/ET_component_library/symbols/logic/NAND.sym
+		symbol_model $HOME/git/BEL/ET_component_library/symbols/logic/NAND.sym
 	[UNIT END]
 
 	[UNIT BEGIN]
@@ -42,7 +42,7 @@ value 7400
 		position x 100.00 y 0.00
 		swap_level 0
 		add_level next
-		file $HOME/git/BEL/ET_component_library/symbols/logic/NAND.sym
+		symbol_model $HOME/git/BEL/ET_component_library/symbols/logic/NAND.sym
 	[UNIT END]
 
 	[UNIT BEGIN]
@@ -50,7 +50,7 @@ value 7400
 		position x 0.00 y 100.00
 		swap_level 0
 		add_level next
-		file $HOME/git/BEL/ET_component_library/symbols/logic/NAND.sym
+		symbol_model $HOME/git/BEL/ET_component_library/symbols/logic/NAND.sym
 	[UNIT END]
 
 	[UNIT BEGIN]
@@ -58,7 +58,7 @@ value 7400
 		position x 100.00 y 100.00
 		swap_level 0
 		add_level next
-		file $HOME/git/BEL/ET_component_library/symbols/logic/NAND.sym
+		symbol_model $HOME/git/BEL/ET_component_library/symbols/logic/NAND.sym
 	[UNIT END]
 	
 	[UNIT BEGIN]
@@ -66,7 +66,7 @@ value 7400
 		position x 200.00 y 100.00
 		swap_level 0
 		add_level request
-		file $HOME/git/BEL/ET_component_library/symbols/logic/pwr.sym
+		symbol_model $HOME/git/BEL/ET_component_library/symbols/logic/pwr.sym
 	[UNIT END]
 	
 [UNITS_EXTERNAL END]
