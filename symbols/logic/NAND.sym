@@ -67,8 +67,8 @@ appearance pcb
         sensitivity_edge none
         sensitivity_level high
         length 7.62
-        rotation 0
-        port_name_visible no
+        rotation 180
+        port_name_visible yes
         port_name_size 1.30
         terminal_name_visible yes
         terminal_name_size 1.30
@@ -80,8 +80,8 @@ appearance pcb
         sensitivity_edge none
         sensitivity_level high
         length 7.62
-        rotation 0
-        port_name_visible no
+        rotation 180
+        port_name_visible yes
         port_name_size 1.30
         terminal_name_visible yes
         terminal_name_size 1.30
@@ -94,8 +94,8 @@ appearance pcb
         tristate no
         weakness none
         length 7.62
-        rotation 180
-        port_name_visible no
+        rotation 0
+        port_name_visible yes
         port_name_size 1.30
         terminal_name_visible yes
         terminal_name_size 1.30
