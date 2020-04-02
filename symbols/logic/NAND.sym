@@ -6,25 +6,25 @@ appearance pcb
 
 [DRAW BEGIN]
     [LINE BEGIN]
-        start x 2.54 y -5.08
-        end x -7.62 y -5.08
+        start x 2.5 y -5.0
+        end x -8 y -5
         width 0.15
     [LINE END]
     [LINE BEGIN]
-        start x -7.62 y -5.08
-        end x -7.62 y 5.08
+        start x -8 y -5
+        end x -8 y 5
         width 0.15
     [LINE END]
     [LINE BEGIN]
-        start x -7.62 y 5.08
-        end x 2.54 y 5.08
+        start x -8 y 5
+        end x 2.5 y 5
         width 0.15
     [LINE END]
     [ARC BEGIN]
-        center x 2.54 y 0.00
-        start x 2.54 y 5.08
-        end x 2.54 y -5.08
-        radius 5.08
+        center x 2.5 y 0.00
+        start x 2.5 y 5
+        end x 2.5 y -5
+        radius 5
         width 0.15
     [ARC END]
 [DRAW END]
@@ -33,7 +33,7 @@ appearance pcb
 [PLACEHOLDERS BEGIN]
     [PLACEHOLDER BEGIN]
         meaning name
-        position x -3.17 y -6.98
+        position x -3 y -7
         size 1.30
         line_width 0.15
         rotation 0
@@ -42,7 +42,7 @@ appearance pcb
     [PLACEHOLDER END]
     [PLACEHOLDER BEGIN]
         meaning value
-        position x -3.17 y -8.89
+        position x -3 y -9
         size 1.30
         line_width 0.15
         rotation 0
@@ -61,12 +61,12 @@ appearance pcb
 [PLACEHOLDERS END]
 [PORTS BEGIN]
     [PORT BEGIN]
-        name I1A
-        position x -15.24 y -2.54
+        name I1
+        position x -15 y -2.5
         direction input_digital
         sensitivity_edge none
         sensitivity_level high
-        length 7.62
+        length 8
         rotation 180
         port_name_visible yes
         port_name_size 1.30
@@ -74,12 +74,12 @@ appearance pcb
         terminal_name_size 1.30
     [PORT END]
     [PORT BEGIN]
-        name I1B
-        position x -15.24 y 2.54
+        name I2
+        position x -15 y 2.5
         direction input_digital
         sensitivity_edge none
         sensitivity_level high
-        length 7.62
+        length 8
         rotation 180
         port_name_visible yes
         port_name_size 1.30
@@ -87,13 +87,13 @@ appearance pcb
         terminal_name_size 1.30
     [PORT END]
     [PORT BEGIN]
-        name O1
-        position x 15.24 y 0.00
+        name O
+        position x 15 y 0.00
         direction output_digital
         inverted yes
         tristate no
         weakness none
-        length 7.62
+        length 8
         rotation 0
         port_name_visible yes
         port_name_size 1.30

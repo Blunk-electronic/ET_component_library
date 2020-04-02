@@ -1,0 +1,20 @@
+-- SYSTEM ET device
+-- date 2019-02-21T08:33:02
+-- ====================================================================================================
+
+prefix PWR
+appearance virtual
+
+[UNITS_EXTERNAL BEGIN]
+	[UNIT BEGIN]
+		name 1
+		position x 0.00 y 0.00
+		swap_level 1
+		add_level next
+		symbol_model $HOME/git/BEL/ET_component_library/symbols/supply/gnd.sym
+	[UNIT END]				
+[UNITS_EXTERNAL END]
+
+-- ====================================================================================================
+-- device model file end
+
