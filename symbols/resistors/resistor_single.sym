@@ -41,7 +41,6 @@ appearance pcb
 		meaning name
 		position x -3 y 3
 		size 2.0
-		line_width 0.20
 		rotation 0
 		alignment horizontal center vertical center
 	[PLACEHOLDER END]
@@ -49,7 +48,6 @@ appearance pcb
 		meaning value
 		position x 0 y -3
 		size 2.0
-		line_width 0.20
 		rotation 0
 		alignment horizontal center vertical bottom
 	[PLACEHOLDER END]
@@ -57,7 +55,6 @@ appearance pcb
 		meaning purpose
 		position x -3 y -6
 		size 2.0
-		line_width 0.20
 		rotation 0
 		alignment horizontal center vertical bottom
 	[PLACEHOLDER END]
