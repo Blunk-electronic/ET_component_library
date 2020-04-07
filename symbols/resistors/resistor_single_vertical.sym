@@ -34,7 +34,6 @@ appearance pcb
 		size 2.0
 		line_width 0.20
 		rotation 0
-		style normal
 		alignment horizontal center vertical center
 	[PLACEHOLDER END]
 	[PLACEHOLDER BEGIN]
@@ -43,7 +42,6 @@ appearance pcb
 		size 2.0
 		line_width 0.20
 		rotation 0
-		style normal
 		alignment horizontal center vertical bottom
 	[PLACEHOLDER END]
 	[PLACEHOLDER BEGIN]
@@ -52,7 +50,6 @@ appearance pcb
 		size 2.0
 		line_width 0.20
 		rotation 0
-		style normal
 		alignment horizontal center vertical bottom
 	[PLACEHOLDER END]
 [PLACEHOLDERS END]

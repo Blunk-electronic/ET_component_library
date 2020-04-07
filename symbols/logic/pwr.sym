@@ -17,7 +17,6 @@ appearance pcb
         size 1.30
         line_width 0.15
         rotation 0
-        style normal
         alignment horizontal left vertical bottom
     [PLACEHOLDER END]
     [PLACEHOLDER BEGIN]
@@ -26,7 +25,6 @@ appearance pcb
         size 1.30
         line_width 0.15
         rotation 0
-        style normal
         alignment horizontal left vertical bottom
     [PLACEHOLDER END]
     [PLACEHOLDER BEGIN]
@@ -35,7 +33,6 @@ appearance pcb
         size 1.30
         line_width 0.15
         rotation 0
-        style normal
         alignment horizontal center vertical center
     [PLACEHOLDER END]
 [PLACEHOLDERS END]
