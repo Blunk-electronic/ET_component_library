@@ -24,6 +24,33 @@ technology smt
 			width 0.15
 		[CIRCLE END]
 
+		[FILL_ZONE BEGIN]
+			fill_style solid
+			[CONTOURS BEGIN]
+				[LINE BEGIN]
+					start x -1.000 y -1.000
+					end x 1.000 y -1.000
+				[LINE END]
+				[LINE BEGIN]
+					start x 1.000 y -1.000
+					end x 1.000 y 1.000
+				[LINE END]
+				[LINE BEGIN]
+					start x 1.000 y 1.000
+					end x -1.000 y -1.000
+				[LINE END]
+
+-- 				[ARC BEGIN]
+-- 					center x 10.000 y 10.000
+-- 					start x 10.000 y 0.000
+-- 					end x 10.000 y 20.000
+-- 				[ARC END]
+-- 				[CIRCLE BEGIN]
+-- 					center x 10.000 y 10.000
+-- 					radius 20.000
+-- 				[CIRCLE END]
+			[CONTOURS END]
+		[FILL_ZONE END]
 		
 
 		-- 		[LINE BEGIN]
