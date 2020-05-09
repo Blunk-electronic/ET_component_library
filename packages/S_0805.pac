@@ -26,8 +26,8 @@ technology smt
 
 		[FILL_ZONE BEGIN]
 			fill_style solid
-			--fill_style hatched
-			--hatching_line_width 0.1
+-- 			fill_style hatched
+-- 			hatching_line_width 0.15
 			[CONTOURS BEGIN]
 				[LINE BEGIN]
 					start x -1.000 y -4.000
@@ -39,18 +39,18 @@ technology smt
 				[LINE END]
 				[LINE BEGIN]
 					start x 1.000 y -2.000
-					end x -1.000 y -4.000
+					end x -1.000 y -2.000
 				[LINE END]
-
--- 				[ARC BEGIN]
--- 					center x 10.000 y 10.000
--- 					start x 10.000 y 0.000
--- 					end x 10.000 y 20.000
--- 				[ARC END]
--- 				[CIRCLE BEGIN]
--- 					center x 10.000 y 10.000
--- 					radius 20.000
--- 				[CIRCLE END]
+				[ARC BEGIN]
+					start x -1.000 y -2.000
+					center x -1.000 y -3.000
+					end x -1.000 y -4.000
+					direction CCW
+				[ARC END]
+				[CIRCLE BEGIN]
+					center x 3.000 y 3.000
+					radius 2.000
+				[CIRCLE END]
 			[CONTOURS END]
 		[FILL_ZONE END]
 		
