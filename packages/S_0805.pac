@@ -48,8 +48,8 @@ technology smt
 					direction CCW
 				[ARC END]
 				[CIRCLE BEGIN]
-					center x 3.000 y 3.000
-					radius 2.000
+					center x -1.000 y -4.000
+					radius 1.000
 				[CIRCLE END]
 			[CONTOURS END]
 		[FILL_ZONE END]
