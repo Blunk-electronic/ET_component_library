@@ -54,7 +54,30 @@ technology smt
 			[CONTOURS END]
 		[FILL_ZONE END]
 		
+		[CUTOUT_ZONE BEGIN]
+			[CONTOURS BEGIN]
+				[LINE BEGIN]
+					start x -1.000 y -3.000
+					end x 0.000 y -3.000
+				[LINE END]
+				[LINE BEGIN]
+					start x 0.000 y -3.000
+					end x 0.000 y -2.000
+				[LINE END]
+				[LINE BEGIN]
+					start x 0.000 y -2.000
+					end x -1.000 y -2.000
+				[LINE END]
+				[ARC BEGIN]
+					start x -1.000 y -2.000
+					center x -1.000 y -2.500
+					end x -1.000 y -3.000
+					direction CCW
+				[ARC END]
+			[CONTOURS END]
+		[CUTOUT_ZONE END]
 
+		
 		-- 		[LINE BEGIN]
 -- 			start x -0.600 y -0.875
 -- 			end x 0.600 y -0.875
