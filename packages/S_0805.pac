@@ -94,28 +94,33 @@ technology smt
 	[BOTTOM BEGIN]
 	[BOTTOM END]
 [SILK_SCREEN END]
--- [ASSEMBLY_DOCUMENTATION BEGIN]
--- 	[TOP BEGIN]
--- 		[LINE BEGIN]
--- 			start x -1.000 y 0.625
--- 			end x -1.000 y -0.625
--- 			width 0.150
--- 		[LINE END]
--- 		[LINE BEGIN]
--- 			start x 1.000 y 0.625
--- 			end x -1.000 y 0.625
--- 			width 0.150
--- 		[LINE END]
--- 		[LINE BEGIN]
--- 			start x 1.000 y -0.625
--- 			end x 1.000 y 0.625
--- 			width 0.150
--- 		[LINE END]
--- 		[LINE BEGIN]
--- 			start x -1.000 y -0.625
--- 			end x 1.000 y -0.625
--- 			width 0.150
--- 		[LINE END]
+[ASSEMBLY_DOCUMENTATION BEGIN]
+	[TOP BEGIN]
+		[LINE BEGIN]
+			start x -1.000 y 0.625
+			end x -1.000 y -0.625
+			width 0.150
+		[LINE END]
+		[LINE BEGIN]
+			start x 1.000 y 0.625
+			end x -1.000 y 0.625
+			width 0.150
+		[LINE END]
+		[LINE BEGIN]
+			start x 1.000 y -0.625
+			end x 1.000 y 0.625
+			width 0.150
+		[LINE END]
+		[LINE BEGIN]
+			start x -1.000 y -0.625
+			end x 1.000 y -0.625
+			width 0.150
+		[LINE END]
+		[CIRCLE BEGIN]
+			center x 0 y -3
+			radius 1
+			width 0.15
+		[CIRCLE END]
 -- 		[PLACEHOLDER BEGIN]
 -- 			meaning value
 -- 			position x 0.000 y 2.100 rotation 0.00
@@ -123,10 +128,10 @@ technology smt
 -- 			line_width 0.150
 -- 			alignment horizontal center vertical bottom
 -- 		[PLACEHOLDER END]
--- 	[TOP END]
--- 	[BOTTOM BEGIN]
--- 	[BOTTOM END]
--- [ASSEMBLY_DOCUMENTATION END]
+	[TOP END]
+	[BOTTOM BEGIN]
+	[BOTTOM END]
+[ASSEMBLY_DOCUMENTATION END]
 -- [KEEPOUT BEGIN]
 -- 	[TOP BEGIN]
 -- 		[LINE BEGIN]
