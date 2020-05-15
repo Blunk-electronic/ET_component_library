@@ -132,63 +132,113 @@ technology smt
 	[BOTTOM BEGIN]
 	[BOTTOM END]
 [ASSEMBLY_DOCUMENTATION END]
--- [KEEPOUT BEGIN]
--- 	[TOP BEGIN]
--- 		[LINE BEGIN]
--- 			start x -1.600 y -1.000
--- 			end x 1.600 y -1.000
--- 		[LINE END]
--- 		[LINE BEGIN]
--- 			start x -1.600 y 1.000
--- 			end x 1.600 y 1.000
--- 		[LINE END]
--- 		[LINE BEGIN]
--- 			start x -1.600 y -1.000
--- 			end x -1.600 y 1.000
--- 		[LINE END]
--- 		[LINE BEGIN]
--- 			start x 1.600 y -1.000
--- 			end x 1.600 y 1.000
--- 		[LINE END]
--- 	[TOP END]
--- 	[BOTTOM BEGIN]
--- 		[FILL_ZONE BEGIN]
--- 			filled yes
--- 			[CONTOURS BEGIN]
--- 				[LINE BEGIN]
--- 					start x 1.000 y 2.000
--- 					end x 3.000 y 4.000
--- 				[LINE END]
--- 				[ARC BEGIN]
--- 					center x 10.000 y 10.000
--- 					start x 10.000 y 0.000
--- 					end x 10.000 y 20.000
--- 				[ARC END]
--- 				[CIRCLE BEGIN]
--- 					center x 10.000 y 10.000
--- 					radius 20.000
--- 				[CIRCLE END]
--- 			[CONTOURS END]
--- 		[FILL_ZONE END]
--- 		[CUTOUT_ZONE BEGIN]
--- 			[CONTOURS BEGIN]
--- 				[LINE BEGIN]
--- 					start x 1.000 y 2.000
--- 					end x 3.000 y 4.000
--- 				[LINE END]
--- 				[ARC BEGIN]
--- 					center x 10.000 y 10.000
--- 					start x 10.000 y 0.000
--- 					end x 10.000 y 20.000
--- 				[ARC END]
--- 				[CIRCLE BEGIN]
--- 					center x 10.000 y 10.000
--- 					radius 20.000
--- 				[CIRCLE END]
--- 			[CONTOURS END]
--- 		[CUTOUT_ZONE END]
--- 	[BOTTOM END]
--- [KEEPOUT END]
+[KEEPOUT BEGIN]
+	[TOP BEGIN]
+		[LINE BEGIN]
+			start x -1.600 y -1.000
+			end x 1.600 y -1.000
+		[LINE END]
+		[LINE BEGIN]
+			start x -1.600 y 1.000
+			end x 1.600 y 1.000
+		[LINE END]
+		[LINE BEGIN]
+			start x -1.600 y -1.000
+			end x -1.600 y 1.000
+		[LINE END]
+		[LINE BEGIN]
+			start x 1.600 y -1.000
+			end x 1.600 y 1.000
+		[LINE END]
+
+		[FILL_ZONE BEGIN]
+			[CONTOURS BEGIN]
+				[LINE BEGIN]
+					start x -2.000 y -2.000
+					end x -1.000 y -2.000
+				[LINE END]
+				[ARC BEGIN]
+					center x -1.5 y -2.000
+					start x -2.000 y -2.000
+					end x -1.000 y -2.000
+				[ARC END]
+			[CONTOURS END]
+		[FILL_ZONE END]
+	[TOP END]
+[KEEPOUT END]
+
+[STOP_MASK BEGIN]
+	[TOP BEGIN]
+		[LINE BEGIN]
+			start x -2.600 y -1.000
+			end x 2.600 y -1.000
+		[LINE END]
+		[LINE BEGIN]
+			start x -2.600 y 1.000
+			end x 2.600 y 1.000
+		[LINE END]
+		[LINE BEGIN]
+			start x -2.600 y -1.000
+			end x -2.600 y 1.000
+		[LINE END]
+		[LINE BEGIN]
+			start x 2.600 y -1.000
+			end x 2.600 y 1.000
+		[LINE END]
+
+		[FILL_ZONE BEGIN]
+			[CONTOURS BEGIN]
+				[LINE BEGIN]
+					start x -3.000 y -2.000
+					end x -2.000 y -2.000
+				[LINE END]
+				[ARC BEGIN]
+					center x -2.5 y -2.000
+					start x -3.000 y -2.000
+					end x -2.000 y -2.000
+				[ARC END]
+			[CONTOURS END]
+		[FILL_ZONE END]
+	[TOP END]
+[STOP_MASK END]
+
+[STENCIL BEGIN]
+	[TOP BEGIN]
+		[LINE BEGIN]
+			start x -2.600 y -2.000
+			end x 2.600 y -2.000
+		[LINE END]
+		[LINE BEGIN]
+			start x -2.600 y 2.000
+			end x 2.600 y 2.000
+		[LINE END]
+		[LINE BEGIN]
+			start x -2.600 y -2.000
+			end x -2.600 y 2.000
+		[LINE END]
+		[LINE BEGIN]
+			start x 2.600 y -2.000
+			end x 2.600 y 2.000
+		[LINE END]
+
+		[FILL_ZONE BEGIN]
+			[CONTOURS BEGIN]
+				[LINE BEGIN]
+					start x -3.000 y -3.000
+					end x -2.000 y -3.000
+				[LINE END]
+				[ARC BEGIN]
+					center x -2.5 y -3.000
+					start x -3.000 y -3.000
+					end x -2.000 y -3.000
+				[ARC END]
+			[CONTOURS END]
+		[FILL_ZONE END]
+	[TOP END]
+[STENCIL END]
+
+
+
 -- [COPPER BEGIN]
 -- 	[TOP BEGIN]
 -- 		[FILL_ZONE BEGIN]
@@ -218,33 +268,30 @@ technology smt
 -- 	[BOTTOM BEGIN]
 -- 	[BOTTOM END]
 -- [COPPER END]
--- [STOP_MASK BEGIN]
--- 	[TOP BEGIN]
--- 	[TOP END]
--- 	[BOTTOM BEGIN]
--- 	[BOTTOM END]
--- [STOP_MASK END]
--- [STENCIL BEGIN]
--- 	[TOP BEGIN]
--- 	[TOP END]
--- 	[BOTTOM BEGIN]
--- 	[BOTTOM END]
--- [STENCIL END]
 -- [ROUTE_RESTRICT BEGIN]
 -- [ROUTE_RESTRICT END]
 -- [VIA_RESTRICT BEGIN]
 -- [VIA_RESTRICT END]
--- [PCB_CONTOURS_NON_PLATED BEGIN]
--- 	[LINE BEGIN]
--- 		start x -0.350 y 0.650
--- 		end x -0.350 y -0.650
--- 	[LINE END]
--- 	[ARC BEGIN]
--- 		center x 150.000 y 75.000
--- 		start x 155.000 y 70.000
--- 		end x 0.000 y 210.000
--- 	[ARC END]
--- [PCB_CONTOURS_NON_PLATED END]
+[PCB_CONTOURS_NON_PLATED BEGIN]
+	[LINE BEGIN]
+		start x 5 y 1
+		end x 6 y 2
+	[LINE END]
+	[LINE BEGIN]
+		start x 6 y 2
+		end x 6 y 3
+	[LINE END]
+	[LINE BEGIN]
+		start x 6 y 3
+		end x 5 y 1
+	[LINE END]
+	[CIRCLE BEGIN]
+		center x -1.000 y 3.000
+		radius 2.000
+	[CIRCLE END]
+
+	
+[PCB_CONTOURS_NON_PLATED END]
 -- [TERMINALS BEGIN]
 -- 	[TERMINAL BEGIN]
 -- 		name 1
