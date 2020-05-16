@@ -151,19 +151,19 @@ technology smt
 			end x 1.600 y 1.000
 		[LINE END]
 
-		[FILL_ZONE BEGIN]
-			[CONTOURS BEGIN]
-				[LINE BEGIN]
-					start x -2.000 y -2.000
-					end x -1.000 y -2.000
-				[LINE END]
-				[ARC BEGIN]
-					center x -1.5 y -2.000
-					start x -2.000 y -2.000
-					end x -1.000 y -2.000
-				[ARC END]
-			[CONTOURS END]
-		[FILL_ZONE END]
+-- 		[FILL_ZONE BEGIN]
+-- 			[CONTOURS BEGIN]
+-- 				[LINE BEGIN]
+-- 					start x -2.000 y -2.000
+-- 					end x -1.000 y -2.000
+-- 				[LINE END]
+-- 				[ARC BEGIN]
+-- 					center x -1.5 y -2.000
+-- 					start x -2.000 y -2.000
+-- 					end x -1.000 y -2.000
+-- 				[ARC END]
+-- 			[CONTOURS END]
+-- 		[FILL_ZONE END]
 	[TOP END]
 [KEEPOUT END]
 
@@ -186,19 +186,19 @@ technology smt
 			end x 2.600 y 1.000
 		[LINE END]
 
-		[FILL_ZONE BEGIN]
-			[CONTOURS BEGIN]
-				[LINE BEGIN]
-					start x -3.000 y -2.000
-					end x -2.000 y -2.000
-				[LINE END]
-				[ARC BEGIN]
-					center x -2.5 y -2.000
-					start x -3.000 y -2.000
-					end x -2.000 y -2.000
-				[ARC END]
-			[CONTOURS END]
-		[FILL_ZONE END]
+-- 		[FILL_ZONE BEGIN]
+-- 			[CONTOURS BEGIN]
+-- 				[LINE BEGIN]
+-- 					start x -3.000 y -2.000
+-- 					end x -2.000 y -2.000
+-- 				[LINE END]
+-- 				[ARC BEGIN]
+-- 					center x -2.5 y -2.000
+-- 					start x -3.000 y -2.000
+-- 					end x -2.000 y -2.000
+-- 				[ARC END]
+-- 			[CONTOURS END]
+-- 		[FILL_ZONE END]
 	[TOP END]
 [STOP_MASK END]
 
@@ -221,19 +221,19 @@ technology smt
 			end x 2.600 y 2.000
 		[LINE END]
 
-		[FILL_ZONE BEGIN]
-			[CONTOURS BEGIN]
-				[LINE BEGIN]
-					start x -3.000 y -3.000
-					end x -2.000 y -3.000
-				[LINE END]
-				[ARC BEGIN]
-					center x -2.5 y -3.000
-					start x -3.000 y -3.000
-					end x -2.000 y -3.000
-				[ARC END]
-			[CONTOURS END]
-		[FILL_ZONE END]
+-- 		[FILL_ZONE BEGIN]
+-- 			[CONTOURS BEGIN]
+-- 				[LINE BEGIN]
+-- 					start x -3.000 y -3.000
+-- 					end x -2.000 y -3.000
+-- 				[LINE END]
+-- 				[ARC BEGIN]
+-- 					center x -2.5 y -3.000
+-- 					start x -3.000 y -3.000
+-- 					end x -2.000 y -3.000
+-- 				[ARC END]
+-- 			[CONTOURS END]
+-- 		[FILL_ZONE END]
 	[TOP END]
 [STENCIL END]
 
