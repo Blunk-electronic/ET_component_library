@@ -151,6 +151,13 @@ technology smt
 			end x 1.600 y 1.000
 		[LINE END]
 
+		[CIRCLE BEGIN]
+			center x 7.000 y 0.000
+			radius 2.000
+			filled no
+		[CIRCLE END]
+
+
 -- 		[FILL_ZONE BEGIN]
 -- 			[CONTOURS BEGIN]
 -- 				[LINE BEGIN]
@@ -268,8 +275,15 @@ technology smt
 -- 	[BOTTOM BEGIN]
 -- 	[BOTTOM END]
 -- [COPPER END]
--- [ROUTE_RESTRICT BEGIN]
--- [ROUTE_RESTRICT END]
+
+[ROUTE_RESTRICT BEGIN]
+	[LINE BEGIN]
+		start x -3.000 y -2.000
+		end x 3.000 y -2.000
+		layers 1
+	[LINE END]
+[ROUTE_RESTRICT END]
+	
 -- [VIA_RESTRICT BEGIN]
 -- [VIA_RESTRICT END]
 [PCB_CONTOURS_NON_PLATED BEGIN]
