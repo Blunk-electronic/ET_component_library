@@ -244,37 +244,31 @@ technology smt
 	[TOP END]
 [STENCIL END]
 
-
-
--- [COPPER BEGIN]
--- 	[TOP BEGIN]
--- 		[FILL_ZONE BEGIN]
--- 			corner_easing fillet
--- 			easing_radius 1.000
--- 			min_width 0.050
--- 			isolation 0.050
--- 			fill_style solid
--- 			[CONTOURS BEGIN]
--- 				[LINE BEGIN]
--- 					start x 1.000 y 2.000
--- 					end x 3.000 y 4.000
--- 				[LINE END]
--- 				[ARC BEGIN]
--- 					center x 10.000 y 10.000
--- 					start x 10.000 y 0.000
--- 					end x 10.000 y 20.000
--- 					direction cw
--- 				[ARC END]
--- 				[CIRCLE BEGIN]
--- 					center x 10.000 y 10.000
--- 					radius 20.000
--- 				[CIRCLE END]
--- 			[CONTOURS END]
--- 		[FILL_ZONE END]
--- 	[TOP END]
--- 	[BOTTOM BEGIN]
--- 	[BOTTOM END]
--- [COPPER END]
+[COPPER BEGIN]
+	[TOP BEGIN]
+		[FILL_ZONE BEGIN]
+			corner_easing fillet
+			easing_radius 1.000
+			min_width 0.050
+			isolation 0.050
+			fill_style solid
+			[CONTOURS BEGIN]
+				[LINE BEGIN]
+					start x -5.000 y -5.000
+					end x 0.000 y -5.000
+				[LINE END]
+				[ARC BEGIN]
+					center x -2.500 y -5.000
+					start x 0.000 y -5.000
+					end x -5.000 y -5.000
+					direction ccw
+				[ARC END]
+			[CONTOURS END]
+		[FILL_ZONE END]
+	[TOP END]
+	[BOTTOM BEGIN]
+	[BOTTOM END]
+[COPPER END]
 
 [ROUTE_RESTRICT BEGIN]
 	[LINE BEGIN]
@@ -284,8 +278,14 @@ technology smt
 	[LINE END]
 [ROUTE_RESTRICT END]
 	
--- [VIA_RESTRICT BEGIN]
--- [VIA_RESTRICT END]
+[VIA_RESTRICT BEGIN]
+	[LINE BEGIN]
+		start x -3.000 y -3.000
+		end x 3.000 y -3.000
+		layers 1
+	[LINE END]
+[VIA_RESTRICT END]
+
 [PCB_CONTOURS_NON_PLATED BEGIN]
 	[LINE BEGIN]
 		start x 5 y 1
