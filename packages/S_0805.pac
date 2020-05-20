@@ -310,7 +310,7 @@ technology smt
 	[TERMINAL BEGIN]
 		name 1
 		technology smt
-		position x -0.0 y 0.000 rotation 0.00
+		position x -0.0 y 0.000 rotation 45.00
 		[PAD_CONTOURS_SMT BEGIN]
 			[LINE BEGIN]
 				start x -0.4 y -0.7
