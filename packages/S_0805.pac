@@ -306,33 +306,33 @@ technology smt
 
 	
 [PCB_CONTOURS_NON_PLATED END]
--- [TERMINALS BEGIN]
--- 	[TERMINAL BEGIN]
--- 		name 1
--- 		technology smt
--- 		position x -0.950 y 0.000 rotation 0.00
--- 		[PAD_CONTOURS_SMT BEGIN]
--- 			[LINE BEGIN]
--- 				start x -0.350 y 0.650
--- 				end x -0.350 y -0.650
--- 			[LINE END]
--- 			[LINE BEGIN]
--- 				start x 0.350 y 0.650
--- 				end x 0.350 y -0.650
--- 			[LINE END]
--- 			[LINE BEGIN]
--- 				start x -0.350 y 0.650
--- 				end x 0.350 y 0.650
--- 			[LINE END]
--- 			[LINE BEGIN]
--- 				start x -0.350 y -0.650
--- 				end x 0.350 y -0.650
--- 			[LINE END]
--- 		[PAD_CONTOURS_SMT END]
--- 		face top
--- 		stop_mask open
--- 		solder_paste applied
--- 	[TERMINAL END]
+[TERMINALS BEGIN]
+	[TERMINAL BEGIN]
+		name 1
+		technology smt
+		position x -0.0 y 0.000 rotation 0.00
+		[PAD_CONTOURS_SMT BEGIN]
+			[LINE BEGIN]
+				start x -0.4 y -0.7
+				end x 0.4 y -0.7
+			[LINE END]
+			[LINE BEGIN]
+				start x 0.4 y -0.7
+				end x 0.4 y 0.70
+			[LINE END]
+			[LINE BEGIN]
+				start x 0.4 y 0.7
+				end x -0.4 y 0.7
+			[LINE END]
+			[LINE BEGIN]
+				start x -0.4 y 0.7
+				end x -0.4 y -0.7
+			[LINE END]
+		[PAD_CONTOURS_SMT END]
+		face top
+		stop_mask open
+		solder_paste applied
+	[TERMINAL END]
 -- 	[TERMINAL BEGIN]
 -- 		name 2
 -- 		technology tht
@@ -405,7 +405,7 @@ technology smt
 -- 			[CIRCLE END]
 -- 		[MILLINGS END]
 -- 	[TERMINAL END]
--- [TERMINALS END]
+[TERMINALS END]
 
 -- ====================================================================================================
 -- package model file end
