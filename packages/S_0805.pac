@@ -303,14 +303,13 @@ technology smt
 		center x -1.000 y 3.000
 		radius 2.000
 	[CIRCLE END]
-
-	
 [PCB_CONTOURS_NON_PLATED END]
+
 [TERMINALS BEGIN]
 	[TERMINAL BEGIN]
 		name 1
 		technology smt
-		position x -0.0 y 0.000 rotation 45.00
+		position x 3.0 y -1.000 rotation 20.00
 		[PAD_CONTOURS_SMT BEGIN]
 			[LINE BEGIN]
 				start x -0.4 y -0.7
@@ -333,78 +332,77 @@ technology smt
 		stop_mask open
 		solder_paste applied
 	[TERMINAL END]
--- 	[TERMINAL BEGIN]
--- 		name 2
--- 		technology tht
--- 		position x 0.950 y 0.000 rotation 0.00
--- 		[PAD_CONTOURS_THT BEGIN]
--- 			[TOP BEGIN]
--- 				[LINE BEGIN]
--- 					start x -0.350 y 0.650
--- 					end x -0.350 y -0.650
--- 				[LINE END]
--- 				[LINE BEGIN]
--- 					start x 0.350 y 0.650
--- 					end x 0.350 y -0.650
--- 				[LINE END]
--- 				[LINE BEGIN]
--- 					start x -0.350 y 0.650
--- 					end x 0.350 y 0.650
--- 				[LINE END]
--- 				[LINE BEGIN]
--- 					start x -0.350 y -0.650
--- 					end x 0.350 y -0.650
--- 				[LINE END]
--- 			[TOP END]
--- 			[BOTTOM BEGIN]
--- 				[LINE BEGIN]
--- 					start x -0.350 y 0.650
--- 					end x -0.350 y -0.650
--- 				[LINE END]
--- 				[LINE BEGIN]
--- 					start x 0.350 y 0.650
--- 					end x 0.350 y -0.650
--- 				[LINE END]
--- 				[LINE BEGIN]
--- 					start x -0.350 y 0.650
--- 					end x 0.350 y 0.650
--- 				[LINE END]
--- 				[LINE BEGIN]
--- 					start x -0.350 y -0.650
--- 					end x 0.350 y -0.650
--- 				[LINE END]
--- 			[BOTTOM END]
--- 		[PAD_CONTOURS_THT END]
--- 		width_inner_layers 1.000
--- 		hole milled
--- 		[MILLINGS BEGIN]
--- 			[LINE BEGIN]
--- 				start x -0.400 y 1.200
--- 				end x -0.400 y -0.800
--- 			[LINE END]
--- 			[LINE BEGIN]
--- 				start x 0.600 y 1.200
--- 				end x 0.600 y -0.800
--- 			[LINE END]
--- 			[LINE BEGIN]
--- 				start x -0.400 y 1.200
--- 				end x 0.600 y 1.200
--- 			[LINE END]
--- 			[LINE BEGIN]
--- 				start x -0.400 y -0.800
--- 				end x 0.600 y -0.800
--- 			[LINE END]
--- 			[ARC BEGIN]
--- 				center x 0.100 y 1.200
--- 				start x -0.900 y 1.200
--- 				end x 1.100 y 1.200
--- 			[ARC END]
+	[TERMINAL BEGIN]
+		name 2
+		technology tht
+		position x -3.0 y -1.000 rotation 0.00
+		[PAD_CONTOURS_THT BEGIN]
+			[TOP BEGIN]
+				[LINE BEGIN]
+					start x -2.0 y -2.0
+					end x 2.0 y -2.0
+				[LINE END]
+				[LINE BEGIN]
+					start x 2.0 y -2.0
+					end x 2.0 y 2.0
+				[LINE END]
+				[LINE BEGIN]
+					start x 2.0 y 2.0
+					end x -2.0 y 2.0
+				[LINE END]
+				[LINE BEGIN]
+					start x -2 y 2
+					end x -2 y -2
+				[LINE END]
+			[TOP END]
+			[BOTTOM BEGIN]
+				[LINE BEGIN]
+					start x -2.0 y -2.0
+					end x 2.0 y -2.0
+				[LINE END]
+				[LINE BEGIN]
+					start x 2.0 y -2.0
+					end x 2.0 y 2.0
+				[LINE END]
+				[LINE BEGIN]
+					start x 2.0 y 2.0
+					end x -2.0 y 2.0
+				[LINE END]
+				[ARC BEGIN]
+					start x -2 y 2
+					center x -2 y 0
+					end x -2 y -2
+					direction CCW
+				[ARC END]
+			[BOTTOM END]
+		[PAD_CONTOURS_THT END]
+		width_inner_layers 1.000
+		hole milled
+		[MILLINGS BEGIN]
+			[LINE BEGIN]
+				start x -1.00 y -1.00
+				end x 1.00 y -1.00
+			[LINE END]
+			[LINE BEGIN]
+				start x 1.00 y -1.00
+				end x 1.00 y 1.00
+			[LINE END]
+			[LINE BEGIN]
+				start x 1.00 y 1.00
+				end x -1.00 y 1.00
+			[LINE END]
+			[ARC BEGIN]
+				start x -1.00 y 1.00
+				center x -1.0 y 0.00
+				end x -1.00 y -1.00
+				direction CCW
+			[ARC END]
 -- 			[CIRCLE BEGIN]
 -- 				center x 45.000 y 4.200
 -- 				radius 10.000
 -- 			[CIRCLE END]
--- 		[MILLINGS END]
--- 	[TERMINAL END]
+		[MILLINGS END]
+	[TERMINAL END]
 [TERMINALS END]
 
 -- ====================================================================================================
