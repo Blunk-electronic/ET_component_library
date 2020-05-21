@@ -8,16 +8,6 @@ technology smt
 [SILK_SCREEN BEGIN]
 	[TOP BEGIN]
 		[LINE BEGIN]
-			start x -3.850 y -4.275
-			end x -3.650 y -4.275
-			width 0.150
-		[LINE END]
-		[LINE BEGIN]
-			start x -3.650 y -4.275
-			end x -2.000 y -4.275
-			width 0.150
-		[LINE END]
-		[LINE BEGIN]
 			start x -1.800 y -4.375
 			end x -1.800 y 4.375
 			width 0.150
@@ -32,11 +22,21 @@ technology smt
 			end x 1.800 y -4.375
 			width 0.150
 		[LINE END]
+
+		-- pin 1 mark
+		[ARC BEGIN]
+			start x 0.50 y 4.375
+			center x 0 y 4.375
+			end x -0.50 y 4.375
+			width 0.150
+		[ARC END]
+			
 		[LINE BEGIN]
 			start x 1.800 y -4.375
 			end x -1.800 y -4.375
 			width 0.150
 		[LINE END]
+			
 		[PLACEHOLDER BEGIN]
 			meaning name
 			position x 0.000 y -5.225 rotation 0.00
@@ -95,394 +95,382 @@ technology smt
 	[TERMINAL BEGIN]
 		name 1
 		technology smt
-		position x -2.925 y -3.810 rotation 0.00
+		position x -2.925 y 3.810 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
-			[LINE BEGIN]
-				start x -1.000 y 0.300
-				end x -1.000 y -0.300
-			[LINE END]
-			[LINE BEGIN]
-				start x 1.000 y 0.300
-				end x 1.000 y -0.300
-			[LINE END]
-			[LINE BEGIN]
-				start x -1.000 y 0.300
-				end x 1.000 y 0.300
-			[LINE END]
 			[LINE BEGIN]
 				start x -1.000 y -0.300
 				end x 1.000 y -0.300
 			[LINE END]
+			[LINE BEGIN]
+				start x 1.000 y -0.300
+				end x 1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x 1.000 y 0.300
+				end x -1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x -1.000 y 0.300
+				end x -1.000 y -0.300
+			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
 		stop_mask open
 		solder_paste applied
 	[TERMINAL END]
-	[TERMINAL BEGIN]
-		name 10
-		technology smt
-		position x 2.925 y 1.270 rotation 0.00
-		[PAD_CONTOURS_SMT BEGIN]
-			[LINE BEGIN]
-				start x -1.000 y -0.700
-				end x -1.000 y 0.700
-			[LINE END]
-			[LINE BEGIN]
-				start x 1.000 y -0.700
-				end x 1.000 y 0.700
-			[LINE END]
-			[ARC BEGIN]
-				center x 0.000 y -0.700
-				start x -1.000 y -0.700
-				end x 1.000 y -0.700
-			[ARC END]
-			[ARC BEGIN]
-				center x 0.000 y 0.700
-				start x -1.000 y 0.700
-				end x 1.000 y 0.700
-			[ARC END]
-		[PAD_CONTOURS_SMT END]
-		face top
-		stop_mask open
-		solder_paste applied
-	[TERMINAL END]
-	[TERMINAL BEGIN]
-		name 11
-		technology smt
-		position x 2.925 y 0.000 rotation 0.00
-		[PAD_CONTOURS_SMT BEGIN]
-			[LINE BEGIN]
-				start x -1.000 y -0.700
-				end x -1.000 y 0.700
-			[LINE END]
-			[LINE BEGIN]
-				start x 1.000 y -0.700
-				end x 1.000 y 0.700
-			[LINE END]
-			[ARC BEGIN]
-				center x 0.000 y -0.700
-				start x -1.000 y -0.700
-				end x 1.000 y -0.700
-			[ARC END]
-			[ARC BEGIN]
-				center x 0.000 y 0.700
-				start x -1.000 y 0.700
-				end x 1.000 y 0.700
-			[ARC END]
-		[PAD_CONTOURS_SMT END]
-		face top
-		stop_mask open
-		solder_paste applied
-	[TERMINAL END]
-	[TERMINAL BEGIN]
-		name 12
-		technology smt
-		position x 2.925 y -1.270 rotation 0.00
-		[PAD_CONTOURS_SMT BEGIN]
-			[LINE BEGIN]
-				start x -1.000 y -0.700
-				end x -1.000 y 0.700
-			[LINE END]
-			[LINE BEGIN]
-				start x 1.000 y -0.700
-				end x 1.000 y 0.700
-			[LINE END]
-			[ARC BEGIN]
-				center x 0.000 y -0.700
-				start x -1.000 y -0.700
-				end x 1.000 y -0.700
-			[ARC END]
-			[ARC BEGIN]
-				center x 0.000 y 0.700
-				start x -1.000 y 0.700
-				end x 1.000 y 0.700
-			[ARC END]
-		[PAD_CONTOURS_SMT END]
-		face top
-		stop_mask open
-		solder_paste applied
-	[TERMINAL END]
-	[TERMINAL BEGIN]
-		name 13
-		technology smt
-		position x 2.925 y -2.540 rotation 0.00
-		[PAD_CONTOURS_SMT BEGIN]
-			[LINE BEGIN]
-				start x -1.000 y -0.700
-				end x -1.000 y 0.700
-			[LINE END]
-			[LINE BEGIN]
-				start x 1.000 y -0.700
-				end x 1.000 y 0.700
-			[LINE END]
-			[ARC BEGIN]
-				center x 0.000 y -0.700
-				start x -1.000 y -0.700
-				end x 1.000 y -0.700
-			[ARC END]
-			[ARC BEGIN]
-				center x 0.000 y 0.700
-				start x -1.000 y 0.700
-				end x 1.000 y 0.700
-			[ARC END]
-		[PAD_CONTOURS_SMT END]
-		face top
-		stop_mask open
-		solder_paste applied
-	[TERMINAL END]
-	[TERMINAL BEGIN]
-		name 14
-		technology smt
-		position x 2.925 y -3.810 rotation 0.00
-		[PAD_CONTOURS_SMT BEGIN]
-			[LINE BEGIN]
-				start x -1.000 y -0.700
-				end x -1.000 y 0.700
-			[LINE END]
-			[LINE BEGIN]
-				start x 1.000 y -0.700
-				end x 1.000 y 0.700
-			[LINE END]
-			[ARC BEGIN]
-				center x 0.000 y -0.700
-				start x -1.000 y -0.700
-				end x 1.000 y -0.700
-			[ARC END]
-			[ARC BEGIN]
-				center x 0.000 y 0.700
-				start x -1.000 y 0.700
-				end x 1.000 y 0.700
-			[ARC END]
-		[PAD_CONTOURS_SMT END]
-		face top
-		stop_mask open
-		solder_paste applied
-	[TERMINAL END]
+
 	[TERMINAL BEGIN]
 		name 2
 		technology smt
-		position x -2.925 y -2.540 rotation 0.00
+		position x -2.925 y 2.540 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
 			[LINE BEGIN]
-				start x -1.000 y -0.700
-				end x -1.000 y 0.700
+				start x -1.000 y -0.300
+				end x 1.000 y -0.300
 			[LINE END]
 			[LINE BEGIN]
-				start x 1.000 y -0.700
-				end x 1.000 y 0.700
+				start x 1.000 y -0.300
+				end x 1.000 y 0.300
 			[LINE END]
-			[ARC BEGIN]
-				center x 0.000 y -0.700
-				start x -1.000 y -0.700
-				end x 1.000 y -0.700
-			[ARC END]
-			[ARC BEGIN]
-				center x 0.000 y 0.700
-				start x -1.000 y 0.700
-				end x 1.000 y 0.700
-			[ARC END]
+			[LINE BEGIN]
+				start x 1.000 y 0.300
+				end x -1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x -1.000 y 0.300
+				end x -1.000 y -0.300
+			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
 		stop_mask open
 		solder_paste applied
 	[TERMINAL END]
+
 	[TERMINAL BEGIN]
 		name 3
 		technology smt
-		position x -2.925 y -1.270 rotation 0.00
+		position x -2.925 y 1.270 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
 			[LINE BEGIN]
-				start x -1.000 y -0.700
-				end x -1.000 y 0.700
+				start x -1.000 y -0.300
+				end x 1.000 y -0.300
 			[LINE END]
 			[LINE BEGIN]
-				start x 1.000 y -0.700
-				end x 1.000 y 0.700
+				start x 1.000 y -0.300
+				end x 1.000 y 0.300
 			[LINE END]
-			[ARC BEGIN]
-				center x 0.000 y -0.700
-				start x -1.000 y -0.700
-				end x 1.000 y -0.700
-			[ARC END]
-			[ARC BEGIN]
-				center x 0.000 y 0.700
-				start x -1.000 y 0.700
-				end x 1.000 y 0.700
-			[ARC END]
+			[LINE BEGIN]
+				start x 1.000 y 0.300
+				end x -1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x -1.000 y 0.300
+				end x -1.000 y -0.300
+			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
 		stop_mask open
 		solder_paste applied
 	[TERMINAL END]
+
 	[TERMINAL BEGIN]
 		name 4
 		technology smt
 		position x -2.925 y 0.000 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
 			[LINE BEGIN]
-				start x -1.000 y -0.700
-				end x -1.000 y 0.700
+				start x -1.000 y -0.300
+				end x 1.000 y -0.300
 			[LINE END]
 			[LINE BEGIN]
-				start x 1.000 y -0.700
-				end x 1.000 y 0.700
+				start x 1.000 y -0.300
+				end x 1.000 y 0.300
 			[LINE END]
-			[ARC BEGIN]
-				center x 0.000 y -0.700
-				start x -1.000 y -0.700
-				end x 1.000 y -0.700
-			[ARC END]
-			[ARC BEGIN]
-				center x 0.000 y 0.700
-				start x -1.000 y 0.700
-				end x 1.000 y 0.700
-			[ARC END]
+			[LINE BEGIN]
+				start x 1.000 y 0.300
+				end x -1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x -1.000 y 0.300
+				end x -1.000 y -0.300
+			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
 		stop_mask open
 		solder_paste applied
 	[TERMINAL END]
+
 	[TERMINAL BEGIN]
 		name 5
 		technology smt
-		position x -2.925 y 1.270 rotation 0.00
+		position x -2.925 y -1.270 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
 			[LINE BEGIN]
-				start x -1.000 y -0.700
-				end x -1.000 y 0.700
+				start x -1.000 y -0.300
+				end x 1.000 y -0.300
 			[LINE END]
 			[LINE BEGIN]
-				start x 1.000 y -0.700
-				end x 1.000 y 0.700
+				start x 1.000 y -0.300
+				end x 1.000 y 0.300
 			[LINE END]
-			[ARC BEGIN]
-				center x 0.000 y -0.700
-				start x -1.000 y -0.700
-				end x 1.000 y -0.700
-			[ARC END]
-			[ARC BEGIN]
-				center x 0.000 y 0.700
-				start x -1.000 y 0.700
-				end x 1.000 y 0.700
-			[ARC END]
+			[LINE BEGIN]
+				start x 1.000 y 0.300
+				end x -1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x -1.000 y 0.300
+				end x -1.000 y -0.300
+			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
 		stop_mask open
 		solder_paste applied
 	[TERMINAL END]
+
 	[TERMINAL BEGIN]
 		name 6
 		technology smt
-		position x -2.925 y 2.540 rotation 0.00
+		position x -2.925 y -2.540 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
 			[LINE BEGIN]
-				start x -1.000 y -0.700
-				end x -1.000 y 0.700
+				start x -1.000 y -0.300
+				end x 1.000 y -0.300
 			[LINE END]
 			[LINE BEGIN]
-				start x 1.000 y -0.700
-				end x 1.000 y 0.700
+				start x 1.000 y -0.300
+				end x 1.000 y 0.300
 			[LINE END]
-			[ARC BEGIN]
-				center x 0.000 y -0.700
-				start x -1.000 y -0.700
-				end x 1.000 y -0.700
-			[ARC END]
-			[ARC BEGIN]
-				center x 0.000 y 0.700
-				start x -1.000 y 0.700
-				end x 1.000 y 0.700
-			[ARC END]
+			[LINE BEGIN]
+				start x 1.000 y 0.300
+				end x -1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x -1.000 y 0.300
+				end x -1.000 y -0.300
+			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
 		stop_mask open
 		solder_paste applied
 	[TERMINAL END]
+	
 	[TERMINAL BEGIN]
 		name 7
 		technology smt
-		position x -2.925 y 3.810 rotation 0.00
+		position x -2.925 y -3.810 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
 			[LINE BEGIN]
-				start x -1.000 y -0.700
-				end x -1.000 y 0.700
+				start x -1.000 y -0.300
+				end x 1.000 y -0.300
 			[LINE END]
 			[LINE BEGIN]
-				start x 1.000 y -0.700
-				end x 1.000 y 0.700
+				start x 1.000 y -0.300
+				end x 1.000 y 0.300
 			[LINE END]
-			[ARC BEGIN]
-				center x 0.000 y -0.700
-				start x -1.000 y -0.700
-				end x 1.000 y -0.700
-			[ARC END]
-			[ARC BEGIN]
-				center x 0.000 y 0.700
-				start x -1.000 y 0.700
-				end x 1.000 y 0.700
-			[ARC END]
+			[LINE BEGIN]
+				start x 1.000 y 0.300
+				end x -1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x -1.000 y 0.300
+				end x -1.000 y -0.300
+			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
 		stop_mask open
 		solder_paste applied
 	[TERMINAL END]
+
 	[TERMINAL BEGIN]
 		name 8
 		technology smt
-		position x 2.925 y 3.810 rotation 0.00
+		position x 2.925 y -3.810 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
 			[LINE BEGIN]
-				start x -1.000 y -0.700
-				end x -1.000 y 0.700
+				start x -1.000 y -0.300
+				end x 1.000 y -0.300
 			[LINE END]
 			[LINE BEGIN]
-				start x 1.000 y -0.700
-				end x 1.000 y 0.700
+				start x 1.000 y -0.300
+				end x 1.000 y 0.300
 			[LINE END]
-			[ARC BEGIN]
-				center x 0.000 y -0.700
-				start x -1.000 y -0.700
-				end x 1.000 y -0.700
-			[ARC END]
-			[ARC BEGIN]
-				center x 0.000 y 0.700
-				start x -1.000 y 0.700
-				end x 1.000 y 0.700
-			[ARC END]
+			[LINE BEGIN]
+				start x 1.000 y 0.300
+				end x -1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x -1.000 y 0.300
+				end x -1.000 y -0.300
+			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
 		stop_mask open
 		solder_paste applied
 	[TERMINAL END]
+
 	[TERMINAL BEGIN]
 		name 9
 		technology smt
-		position x 2.925 y 2.540 rotation 0.00
+		position x 2.925 y -2.540 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
 			[LINE BEGIN]
-				start x -1.000 y -0.700
-				end x -1.000 y 0.700
+				start x -1.000 y -0.300
+				end x 1.000 y -0.300
 			[LINE END]
 			[LINE BEGIN]
-				start x 1.000 y -0.700
-				end x 1.000 y 0.700
+				start x 1.000 y -0.300
+				end x 1.000 y 0.300
 			[LINE END]
-			[ARC BEGIN]
-				center x 0.000 y -0.700
-				start x -1.000 y -0.700
-				end x 1.000 y -0.700
-				direction ccw
-			[ARC END]
-			[ARC BEGIN]
-				center x 0.000 y 0.700
-				start x -1.000 y 0.700
-				end x 1.000 y 0.700
-			[ARC END]
+			[LINE BEGIN]
+				start x 1.000 y 0.300
+				end x -1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x -1.000 y 0.300
+				end x -1.000 y -0.300
+			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
 		stop_mask open
 		solder_paste applied
 	[TERMINAL END]
+
+	[TERMINAL BEGIN]
+		name 10
+		technology smt
+		position x 2.925 y -1.270 rotation 0.00
+		[PAD_CONTOURS_SMT BEGIN]
+			[LINE BEGIN]
+				start x -1.000 y -0.300
+				end x 1.000 y -0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x 1.000 y -0.300
+				end x 1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x 1.000 y 0.300
+				end x -1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x -1.000 y 0.300
+				end x -1.000 y -0.300
+			[LINE END]
+		[PAD_CONTOURS_SMT END]
+		face top
+		stop_mask open
+		solder_paste applied
+	[TERMINAL END]
+
+	[TERMINAL BEGIN]
+		name 11
+		technology smt
+		position x 2.925 y 0 rotation 0.00
+		[PAD_CONTOURS_SMT BEGIN]
+			[LINE BEGIN]
+				start x -1.000 y -0.300
+				end x 1.000 y -0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x 1.000 y -0.300
+				end x 1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x 1.000 y 0.300
+				end x -1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x -1.000 y 0.300
+				end x -1.000 y -0.300
+			[LINE END]
+		[PAD_CONTOURS_SMT END]
+		face top
+		stop_mask open
+		solder_paste applied
+	[TERMINAL END]
+
+	[TERMINAL BEGIN]
+		name 12
+		technology smt
+		position x 2.925 y 1.27 rotation 0.00
+		[PAD_CONTOURS_SMT BEGIN]
+			[LINE BEGIN]
+				start x -1.000 y -0.300
+				end x 1.000 y -0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x 1.000 y -0.300
+				end x 1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x 1.000 y 0.300
+				end x -1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x -1.000 y 0.300
+				end x -1.000 y -0.300
+			[LINE END]
+		[PAD_CONTOURS_SMT END]
+		face top
+		stop_mask open
+		solder_paste applied
+	[TERMINAL END]
+
+	[TERMINAL BEGIN]
+		name 13
+		technology smt
+		position x 2.925 y 2.54 rotation 0.00
+		[PAD_CONTOURS_SMT BEGIN]
+			[LINE BEGIN]
+				start x -1.000 y -0.300
+				end x 1.000 y -0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x 1.000 y -0.300
+				end x 1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x 1.000 y 0.300
+				end x -1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x -1.000 y 0.300
+				end x -1.000 y -0.300
+			[LINE END]
+		[PAD_CONTOURS_SMT END]
+		face top
+		stop_mask open
+		solder_paste applied
+	[TERMINAL END]
+
+	[TERMINAL BEGIN]
+		name 14
+		technology smt
+		position x 2.925 y 3.81 rotation 0.00
+		[PAD_CONTOURS_SMT BEGIN]
+			[LINE BEGIN]
+				start x -1.000 y -0.300
+				end x 1.000 y -0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x 1.000 y -0.300
+				end x 1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x 1.000 y 0.300
+				end x -1.000 y 0.300
+			[LINE END]
+			[LINE BEGIN]
+				start x -1.000 y 0.300
+				end x -1.000 y -0.300
+			[LINE END]
+		[PAD_CONTOURS_SMT END]
+		face top
+		stop_mask open
+		solder_paste applied
+	[TERMINAL END]
+
+	
 [TERMINALS END]
 
 -- ====================================================================================================
