@@ -397,12 +397,59 @@ technology smt
 				end x -1.00 y -1.00
 				direction CCW
 			[ARC END]
--- 			[CIRCLE BEGIN]
--- 				center x 45.000 y 4.200
--- 				radius 10.000
--- 			[CIRCLE END]
 		[MILLINGS END]
 	[TERMINAL END]
+
+	[TERMINAL BEGIN]
+		name 3
+		technology tht
+		position x 0.2 y -4.000 rotation 0.00
+		[PAD_CONTOURS_THT BEGIN]
+			[TOP BEGIN]
+				[LINE BEGIN]
+					start x -2.0 y -2.0
+					end x 2.0 y -2.0
+				[LINE END]
+				[LINE BEGIN]
+					start x 2.0 y -2.0
+					end x 2.0 y 2.0
+				[LINE END]
+				[LINE BEGIN]
+					start x 2.0 y 2.0
+					end x -2.0 y 2.0
+				[LINE END]
+				[LINE BEGIN]
+					start x -2 y 2
+					end x -2 y -2
+				[LINE END]
+			[TOP END]
+			[BOTTOM BEGIN]
+				[LINE BEGIN]
+					start x -2.0 y -2.0
+					end x 2.0 y -2.0
+				[LINE END]
+				[LINE BEGIN]
+					start x 2.0 y -2.0
+					end x 2.0 y 2.0
+				[LINE END]
+				[LINE BEGIN]
+					start x 2.0 y 2.0
+					end x -2.0 y 2.0
+				[LINE END]
+				[ARC BEGIN]
+					start x -2 y 2
+					center x -2 y 0
+					end x -2 y -2
+					direction CCW
+				[ARC END]
+			[BOTTOM END]
+		[PAD_CONTOURS_THT END]
+		width_inner_layers 1.000
+		hole drilled
+		drill_size 1.0
+	[TERMINAL END]
+
+	
 [TERMINALS END]
 
 -- ====================================================================================================
