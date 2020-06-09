@@ -39,28 +39,47 @@ technology smt
 			
 		[PLACEHOLDER BEGIN]
 			meaning name
-			position x 0.000 y -5.225 rotation 0.00
+			position x -2.000 y -6.0 rotation 0.00
 			size 1.000
-			line_width 0.150
-			alignment horizontal center vertical bottom
+			line_width 0.15
+			alignment horizontal right vertical bottom
 		[PLACEHOLDER END]
+
+		[TEXT BEGIN]
+			content "AB"
+			position x -2.000 y -8.0 rotation 0.00
+			size 1.000
+			line_width 0.15
+			alignment horizontal left vertical bottom
+		[TEXT END]
+		
+-- 		[PLACEHOLDER BEGIN]
+-- 			meaning value
+-- 			position x -2.000 y -8.000 rotation 0.00
+-- 			size 1.000
+-- 			line_width 0.150
+-- 			alignment horizontal center vertical bottom
+-- 		[PLACEHOLDER END]
+
 	[TOP END]
 	[BOTTOM BEGIN]
 	[BOTTOM END]
 [SILK_SCREEN END]
+
 [ASSEMBLY_DOCUMENTATION BEGIN]
 	[TOP BEGIN]
-		[PLACEHOLDER BEGIN]
-			meaning value
-			position x 0.000 y 0.000 rotation 90.00
-			size 1.000
-			line_width 0.150
-			alignment horizontal center vertical bottom
-		[PLACEHOLDER END]
+-- 		[PLACEHOLDER BEGIN]
+-- 			meaning value
+-- 			position x 0.000 y -5.000 rotation 90.00
+-- 			size 1.000
+-- 			line_width 0.150
+-- 			alignment horizontal center vertical bottom
+-- 		[PLACEHOLDER END]
 	[TOP END]
 	[BOTTOM BEGIN]
 	[BOTTOM END]
 [ASSEMBLY_DOCUMENTATION END]
+
 [KEEPOUT BEGIN]
 	[TOP BEGIN]
 	[TOP END]
@@ -69,6 +88,19 @@ technology smt
 [KEEPOUT END]
 [COPPER BEGIN]
 	[TOP BEGIN]
+		[LINE BEGIN]
+			start x -1.0 y 0
+			end x 1 y 0
+			width 0.150
+		[LINE END]
+
+		[TEXT BEGIN]
+			content "LY1"
+			position x 2.000 y 1.0 rotation -10.00
+			size 1.000
+			line_width 0.15
+			alignment horizontal left vertical bottom
+		[TEXT END]
 	[TOP END]
 	[BOTTOM BEGIN]
 	[BOTTOM END]
@@ -85,8 +117,15 @@ technology smt
 	[BOTTOM BEGIN]
 	[BOTTOM END]
 [STENCIL END]
+
 [ROUTE_RESTRICT BEGIN]
+	[LINE BEGIN]
+		start x -1.000 y -1.00
+		end x -1.000 y 1.00
+		layers 1
+	[LINE END]
 [ROUTE_RESTRICT END]
+	
 [VIA_RESTRICT BEGIN]
 [VIA_RESTRICT END]
 [PCB_CONTOURS_NON_PLATED BEGIN]
