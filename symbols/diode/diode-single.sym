@@ -1,0 +1,87 @@
+-- SYSTEM ET symbol
+-- date 2019-01-26T16:54:37
+-- ======================================================================================================================================================
+
+appearance pcb
+
+[DRAW BEGIN]
+	[LINE BEGIN]
+		start x -2 y 0
+		end   x 1 y 0
+		width 0.15
+	[LINE END]
+	[LINE BEGIN]
+		start x -2 y -2
+		end   x -2 y 2
+		width 0.15
+	[LINE END]
+	[LINE BEGIN]
+		start x -2 y -2
+		end   x  1 y 0
+		width 0.15
+	[LINE END]
+	[LINE BEGIN]
+		start x -2 y 2
+		end   x 1 y 0
+		width 0.15
+	[LINE END]
+	[LINE BEGIN]
+		start x 1 y 2
+		end   x 1 y -2
+		width 0.15
+	[LINE END]	
+[DRAW END]
+
+[PLACEHOLDERS BEGIN]
+	[PLACEHOLDER BEGIN]
+		meaning name
+		position x 0 y -3
+		size 2.0
+		rotation 0
+		alignment horizontal center vertical center
+	[PLACEHOLDER END]
+	[PLACEHOLDER BEGIN]
+		meaning value
+		position x 0 y -5
+		size 2.0
+		rotation 0
+		alignment horizontal center vertical bottom
+	[PLACEHOLDER END]
+	[PLACEHOLDER BEGIN]
+		meaning purpose
+		position x 0 y -7
+		size 2.0
+		rotation 0
+		alignment horizontal center vertical bottom
+	[PLACEHOLDER END]
+[PLACEHOLDERS END]
+
+[PORTS BEGIN]
+	[PORT BEGIN]
+		name A
+		position x -5 y 0
+		direction passive
+		length 5
+		rotation 180
+		port_name_visible no
+		port_name_size 1.30
+		terminal_name_visible no
+		terminal_name_size 1.30
+	[PORT END]
+	[PORT BEGIN]
+		name C
+		position x 6 y 0
+		direction passive
+		length 5
+		rotation 0
+		port_name_visible no
+		port_name_size 1.30
+		terminal_name_visible no
+		terminal_name_size 1.30
+	[PORT END]
+[PORTS END]
+
+
+-- ======================================================================================================================================================
+-- symbol file end
+
