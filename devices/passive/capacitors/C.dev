@@ -2,7 +2,7 @@
 -- date 2019-02-21T08:33:02
 -- ====================================================================================================
 
-prefix R
+prefix C
 appearance pcb
 
 [VARIANTS BEGIN]
@@ -22,7 +22,7 @@ appearance pcb
 		position x 0.00 y 0.00
 		swap_level 1
 		add_level next
-		symbol_model $HOME/git/BEL/ET_component_library/symbols/resistors/resistor_single.sym
+		symbol_model $HOME/git/BEL/ET_component_library/symbols/capacitors/capacitor_single.sym
 	[UNIT END]				
 [UNITS_EXTERNAL END]
 
