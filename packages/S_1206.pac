@@ -92,7 +92,28 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
+
 		stop_mask open
+		stop_mask_shape user_specific -- as_pad, expand_pad, user_specific
+		[STOP_MASK_CONTOURS_SMT BEGIN]
+			[LINE BEGIN]
+				start x -1 y -1
+				end x 1 y -1
+			[LINE END]
+			[LINE BEGIN]
+				start x 1 y -1
+				end x 1 y 1
+			[LINE END]
+			[LINE BEGIN]
+				start x 1 y 1
+				end x -1 y 1
+			[LINE END]
+			[LINE BEGIN]
+				start x -1 y 1
+				end x -1 y -1
+			[LINE END]
+		[STOP_MASK_CONTOURS_SMT END]
+		
 		solder_paste applied
 	[TERMINAL END]
 

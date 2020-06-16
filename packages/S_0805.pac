@@ -376,6 +376,51 @@ technology smt
 				[ARC END]
 			[BOTTOM END]
 		[PAD_CONTOURS_THT END]
+
+		stop_mask_shape_top user_specific -- as_pad, expand_pad, user_specific
+		stop_mask_shape_bottom user_specific -- as_pad, expand_pad, user_specific
+		
+		[STOP_MASK_CONTOURS_THT BEGIN]
+
+			[TOP BEGIN]
+				[LINE BEGIN]
+					start x -1 y -1
+					end x 1 y -1
+				[LINE END]
+				[LINE BEGIN]
+					start x 1 y -1
+					end x 1 y 1
+				[LINE END]
+				[LINE BEGIN]
+					start x 1 y 1
+					end x -1 y 1
+				[LINE END]
+				[LINE BEGIN]
+					start x -1 y 1
+					end x -1 y -1
+				[LINE END]
+			[TOP END]
+
+			[BOTTOM BEGIN]
+				[LINE BEGIN]
+					start x -1 y -1
+					end x 1 y -1
+				[LINE END]
+				[LINE BEGIN]
+					start x 1 y -1
+					end x 1 y 1
+				[LINE END]
+				[LINE BEGIN]
+					start x 1 y 1
+					end x -1 y 1
+				[LINE END]
+				[LINE BEGIN]
+					start x -1 y 1
+					end x -1 y -1
+				[LINE END]
+			[BOTTOM END]			
+		[STOP_MASK_CONTOURS_THT END]
+			
 		width_inner_layers 1.000
 		hole milled
 		[MILLINGS BEGIN]
