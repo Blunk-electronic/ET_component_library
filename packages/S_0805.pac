@@ -377,8 +377,8 @@ technology smt
 			[BOTTOM END]
 		[PAD_CONTOURS_THT END]
 
-		stop_mask_shape_top user_specific -- as_pad, expand_pad, user_specific
-		stop_mask_shape_bottom user_specific -- as_pad, expand_pad, user_specific
+		stop_mask_shape_top user_specific -- as_pad -- as_pad, expand_pad, user_specific
+		stop_mask_shape_bottom as_pad -- as_pad, expand_pad, user_specific
 		
 		[STOP_MASK_CONTOURS_THT BEGIN]
 

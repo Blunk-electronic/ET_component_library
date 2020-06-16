@@ -97,20 +97,20 @@ technology smt
 		stop_mask_shape user_specific -- as_pad, expand_pad, user_specific
 		[STOP_MASK_CONTOURS_SMT BEGIN]
 			[LINE BEGIN]
-				start x -1 y -1
-				end x 1 y -1
+				start x -0.5 y -0.5
+				end x 0.5 y -0.5
 			[LINE END]
 			[LINE BEGIN]
-				start x 1 y -1
-				end x 1 y 1
+				start x 0.5 y -0.5
+				end x 0.5 y 0.5
 			[LINE END]
 			[LINE BEGIN]
-				start x 1 y 1
-				end x -1 y 1
+				start x 0.5 y 0.5
+				end x -0.5 y 0.5
 			[LINE END]
 			[LINE BEGIN]
-				start x -1 y 1
-				end x -1 y -1
+				start x -0.5 y 0.5
+				end x -0.5 y -0.5
 			[LINE END]
 		[STOP_MASK_CONTOURS_SMT END]
 		
