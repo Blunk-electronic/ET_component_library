@@ -146,8 +146,8 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask open
-		solder_paste applied
+		solder_paste_shape shrink_pad
+		solder_paste_shrink_factor 0.8
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
@@ -173,8 +173,27 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask open
-		solder_paste applied
+		
+		solder_paste_shape user_specific
+		[STENCIL_CONTOURS BEGIN]
+			[LINE BEGIN]
+				start x -0.600 y -0.200
+				end x 0.600 y -0.200
+			[LINE END]
+			[LINE BEGIN]
+				start x 0.600 y -0.200
+				end x 0.600 y 0.200
+			[LINE END]
+			[LINE BEGIN]
+				start x 0.600 y 0.200
+				end x -0.600 y -0.200
+			[LINE END]
+-- 			[LINE BEGIN]
+-- 				start x -0.600 y 0.200
+-- 				end x -0.600 y -0.200
+-- 			[LINE END]
+		[STENCIL_CONTOURS END]
+
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
@@ -200,8 +219,6 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask open
-		solder_paste applied
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
@@ -227,8 +244,6 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask open
-		solder_paste applied
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
@@ -254,8 +269,6 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask open
-		solder_paste applied
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
@@ -281,8 +294,6 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask open
-		solder_paste applied
 	[TERMINAL END]
 	
 	[TERMINAL BEGIN]
@@ -308,8 +319,6 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask open
-		solder_paste applied
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
@@ -335,8 +344,6 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask open
-		solder_paste applied
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
@@ -362,8 +369,6 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask open
-		solder_paste applied
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
@@ -389,8 +394,6 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask open
-		solder_paste applied
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
@@ -416,8 +419,6 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask open
-		solder_paste applied
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
@@ -443,8 +444,6 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask open
-		solder_paste applied
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
@@ -470,8 +469,6 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask open
-		solder_paste applied
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
@@ -497,8 +494,6 @@ technology smt
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask open
-		solder_paste applied
 	[TERMINAL END]
 
 	
