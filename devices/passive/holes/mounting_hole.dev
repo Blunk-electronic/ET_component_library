@@ -1,0 +1,30 @@
+-- SYSTEM ET device
+-- date 2019-02-21T08:33:02
+-- ====================================================================================================
+
+prefix MH
+appearance pcb
+
+[VARIANTS BEGIN]
+	[VARIANT BEGIN]
+		name 4mm
+		package_model $HOME/git/BEL/ET_component_library/packages/holes/mounting_hole_4.pac
+		[TERMINAL_PORT_MAP BEGIN]
+			terminal 1 unit 1 port 1
+		[TERMINAL_PORT_MAP END]
+	[VARIANT END]
+[VARIANTS END]
+
+[UNITS_EXTERNAL BEGIN]
+	[UNIT BEGIN]
+		name 1
+		position x 0.00 y 0.00
+		swap_level 1
+		add_level next
+		symbol_model $HOME/git/BEL/ET_component_library/symbols/holes/mounting_hole.sym
+	[UNIT END]				
+[UNITS_EXTERNAL END]
+
+-- ====================================================================================================
+-- device model file end
+
