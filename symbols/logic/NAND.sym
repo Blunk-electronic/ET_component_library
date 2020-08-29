@@ -29,6 +29,13 @@ appearance pcb
     [ARC END]
 [DRAW END]
 [TEXTS BEGIN]
+	[TEXT BEGIN]
+		content "&"
+		position x 0 y 0
+		size 2
+		rotation 0
+		alignment horizontal center vertical center
+	[TEXT END]
 [TEXTS END]
 [PLACEHOLDERS BEGIN]
     [PLACEHOLDER BEGIN]

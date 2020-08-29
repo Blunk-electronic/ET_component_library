@@ -41,7 +41,7 @@ appearance pcb
         direction power_in
         level zero
         length 0.00
-        rotation 270
+        rotation -90
         port_name_visible no
         port_name_size 1.30
         terminal_name_visible yes
