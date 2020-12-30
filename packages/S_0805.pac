@@ -244,7 +244,7 @@ technology smt
 	[TOP END]
 [STENCIL END]
 
-[COPPER BEGIN]
+[CONDUCTOR BEGIN]
 	[TOP BEGIN]
 		[FILL_ZONE BEGIN]
 			corner_easing fillet
@@ -268,7 +268,7 @@ technology smt
 	[TOP END]
 	[BOTTOM BEGIN]
 	[BOTTOM END]
-[COPPER END]
+[CONDUCTOR END]
 
 [ROUTE_RESTRICT BEGIN]
 	[LINE BEGIN]

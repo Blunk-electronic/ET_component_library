@@ -78,7 +78,7 @@ technology smt
 	[BOTTOM BEGIN]
 	[BOTTOM END]
 [KEEPOUT END]
-[COPPER BEGIN]
+[CONDUCTOR BEGIN]
 	[TOP BEGIN]
 -- 		[LINE BEGIN]
 -- 			start x -1.0 y 0
@@ -96,7 +96,7 @@ technology smt
 	[TOP END]
 	[BOTTOM BEGIN]
 	[BOTTOM END]
-[COPPER END]
+[CONDUCTOR END]
 [STOP_MASK BEGIN]
 	[TOP BEGIN]
 	[TOP END]

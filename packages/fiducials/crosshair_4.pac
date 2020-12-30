@@ -38,7 +38,7 @@ technology tht -- don't care here
 [STOP_MASK END]
 
 
-[COPPER BEGIN]
+[CONDUCTOR BEGIN]
 	[TOP BEGIN]
 		[LINE BEGIN]
 			start x -2 y 0
@@ -57,7 +57,7 @@ technology tht -- don't care here
 			radius 1.5
 		[CIRCLE END]
 	[TOP END]
-[COPPER END]
+[CONDUCTOR END]
 
 -- ====================================================================================================
 -- package model file end

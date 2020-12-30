@@ -29,7 +29,7 @@ appearance virtual
 		direction power_out
 		length 5
 		rotation 90
-		port_name_visible yes
+		port_name_visible no
 		port_name_size 1.30
 		terminal_name_visible no
 		terminal_name_size 1.30

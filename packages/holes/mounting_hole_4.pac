@@ -67,7 +67,7 @@ technology tht -- don't care here
 [STOP_MASK END]
 
 
-[COPPER BEGIN]
+[CONDUCTOR BEGIN]
 	[TOP BEGIN]
 		[CIRCLE BEGIN]
 			center x 0 y 0
@@ -75,7 +75,7 @@ technology tht -- don't care here
 			width 1.8
 		[CIRCLE END]
 	[TOP END]
-[COPPER END]
+[CONDUCTOR END]
 
 [PCB_CONTOURS_NON_PLATED BEGIN]
 	[CIRCLE BEGIN]
