@@ -140,7 +140,7 @@ technology tht
 			
 		width_inner_layers 0.500
 		hole drilled
-		drill_size 1.0
+		drill_size 0.8
 	[TERMINAL END]
 
 	
