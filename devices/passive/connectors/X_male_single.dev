@@ -13,6 +13,15 @@ appearance pcb
 			terminal 1 unit 1 port 1
 		[TERMINAL_PORT_MAP END]
 	[VARIANT END]
+	
+	[VARIANT BEGIN]
+		name T_male_blade_holes
+		package_model $HOME/git/BEL/ET_component_library/packages/connectors/T_male_blade_single_with_cutouts.pac
+		[TERMINAL_PORT_MAP BEGIN]
+			terminal 1 unit 1 port 1
+		[TERMINAL_PORT_MAP END]
+	[VARIANT END]
+	
 [VARIANTS END]
 
 [UNITS_EXTERNAL BEGIN]
