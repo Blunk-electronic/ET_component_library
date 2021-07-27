@@ -24,7 +24,6 @@ appearance pcb
         center x 2.5 y 0.00
         start x 2.5 y 5
         end x 2.5 y -5
-        radius 5
         width 0.15
     [ARC END]
 [DRAW END]
