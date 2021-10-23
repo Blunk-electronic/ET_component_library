@@ -74,22 +74,26 @@ technology smt
 		technology smt
 		position x -2.0 y -0.000 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
-			[LINE BEGIN]
-				start x -1 y -1
-				end x 1 y -1
-			[LINE END]
-			[LINE BEGIN]
-				start x 1 y -1
-				end x 1 y 1
-			[LINE END]
-			[LINE BEGIN]
-				start x 1 y 1
-				end x -1 y 1
-			[LINE END]
-			[LINE BEGIN]
-				start x -1 y 1
-				end x -1 y -1
-			[LINE END]
+			--[LINE BEGIN]
+				--start x -1 y -1
+				--end x 1 y -1
+			--[LINE END]
+			--[LINE BEGIN]
+				--start x 1 y -1
+				--end x 1 y 1
+			--[LINE END]
+			--[LINE BEGIN]
+				--start x 1 y 1
+				--end x -1 y 1
+			--[LINE END]
+			--[LINE BEGIN]
+				--start x -1 y 1
+				--end x -1 y -1
+			--[LINE END]
+			[CIRCLE BEGIN]
+				center x 0 y 0
+				radius 0.8
+			[CIRCLE END]
 		[PAD_CONTOURS_SMT END]
 		face top
 		stop_mask_shape user_specific -- as_pad, expand_pad, user_specific
