@@ -1,0 +1,90 @@
+-- SYSTEM ET symbol
+-- date 2019-01-26T16:54:37
+-- ======================================================================================================================================================
+
+appearance pcb
+
+[DRAW BEGIN]
+	-- positive port: +
+	[LINE BEGIN] -- 1st vertical line left
+		start x -1.0 y  2
+		end   x -1.0 y -2
+		width 0.15
+	[LINE END]
+	[LINE BEGIN] -- 2nd vertical line left
+		start x -0.5 y  2
+		end   x -0.5 y -2
+		width 0.15
+	[LINE END]
+	[LINE BEGIN] -- upper horizontal line left
+		start x -1.0 y  2
+		end   x -0.5 y  2
+		width 0.15
+	[LINE END]
+	[LINE BEGIN] -- lower horizontal line left
+		start x -1.0 y -2
+		end   x -0.5 y -2
+		width 0.15
+	[LINE END]
+	
+	-- negative port: - 
+	[LINE BEGIN] -- vertical line right
+		start x 0.5 y  2
+		end   x 0.5 y -2
+		width 0.15
+	[LINE END]	
+[DRAW END]
+
+[PLACEHOLDERS BEGIN]
+	[PLACEHOLDER BEGIN]
+		meaning name
+		position x 0 y -4
+		size 1.2
+		rotation 0
+		alignment horizontal center vertical bottom
+	[PLACEHOLDER END]
+	[PLACEHOLDER BEGIN]
+		meaning value
+		position x 0 y -6
+		size 1.2
+		rotation 0
+		alignment horizontal center vertical bottom
+	[PLACEHOLDER END]
+	[PLACEHOLDER BEGIN]
+		meaning purpose
+		position x 0 y -8
+		size 1.2
+		rotation 0
+		alignment horizontal center vertical bottom
+	[PLACEHOLDER END]
+[PLACEHOLDERS END]
+
+[PORTS BEGIN]
+	[PORT BEGIN]
+		name +
+		position x -5 y 0
+		direction passive
+		length 4.0
+		rotation 180
+		port_name_visible no
+		port_name_size 1.30
+		terminal_name_visible no
+		terminal_name_size 1.30
+	[PORT END]
+	[PORT BEGIN]
+		name -
+		position x 5 y 0
+		direction passive
+		length 4.5
+		rotation 0
+		port_name_visible no
+		port_name_size 1.30
+		terminal_name_visible no
+		terminal_name_size 1.30
+	[PORT END]
+[PORTS END]
+
+
+-- ======================================================================================================================================================
+-- symbol file end
+

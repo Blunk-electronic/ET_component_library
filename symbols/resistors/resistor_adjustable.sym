@@ -1,0 +1,104 @@
+-- SYSTEM ET symbol
+-- date 2019-01-26T16:54:37
+-- ======================================================================================================================================================
+
+appearance pcb
+
+[DRAW BEGIN]
+	[LINE BEGIN] -- horizontal line top
+		start x -2.5 y 1
+		end   x  2.5 y 1
+		width 0.15
+	[LINE END]
+	[LINE BEGIN] -- horizontal line bottom
+		start x -2.5 y -1
+		end   x  2.5 y -1
+		width 0.15
+	[LINE END]
+	[LINE BEGIN] -- vertical line left
+		start x -2.5 y  1
+		end   x -2.5 y -1
+		width 0.15
+	[LINE END]
+	[LINE BEGIN] -- vertical line right
+		start x 2.5 y  1
+		end   x 2.5 y -1
+		width 0.15
+	[LINE END]
+	[LINE BEGIN] -- wiper
+		start x 0 y  3
+		end   x -2 y -2
+		width 0.2
+	[LINE END]
+	[LINE BEGIN] -- wiper
+		start x -2.4 y -1.9
+		end   x -1.6 y -2.2
+		width 0.2
+	[LINE END]
+[DRAW END]
+
+
+[PLACEHOLDERS BEGIN]
+	[PLACEHOLDER BEGIN]
+		meaning name
+		position x 0 y -4
+		size 1.2
+		rotation 0
+		alignment horizontal center vertical bottom
+	[PLACEHOLDER END]
+	[PLACEHOLDER BEGIN]
+		meaning value
+		position x 0 y -6
+		size 1.2
+		rotation 0
+		alignment horizontal center vertical bottom
+	[PLACEHOLDER END]
+	[PLACEHOLDER BEGIN]
+		meaning purpose
+		position x 0 y -8
+		size 1.2
+		rotation 0
+		alignment horizontal center vertical bottom
+	[PLACEHOLDER END]
+[PLACEHOLDERS END]
+
+[PORTS BEGIN]
+	[PORT BEGIN]
+		name 1
+		position x -5 y 0
+		direction passive
+		length 2.5
+		rotation 180
+		port_name_visible no
+		port_name_size 1.30
+		terminal_name_visible no
+		terminal_name_size 1.30
+	[PORT END]
+	[PORT BEGIN]
+		name 2
+		position x 5 y 0
+		direction passive
+		length 2.5
+		rotation 0
+		port_name_visible no
+		port_name_size 1.30
+		terminal_name_visible no
+		terminal_name_size 1.30
+	[PORT END]
+	[PORT BEGIN]
+		name w
+		position x 0 y 5
+		direction passive
+		length 2.0
+		rotation 90
+		port_name_visible no
+		port_name_size 1.30
+		terminal_name_visible no
+		terminal_name_size 1.30
+	[PORT END]
+[PORTS END]
+
+
+-- ======================================================================================================================================================
+-- symbol file end
+
