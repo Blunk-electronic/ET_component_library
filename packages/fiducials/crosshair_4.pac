@@ -55,6 +55,7 @@ technology tht -- don't care here
 		[CIRCLE BEGIN]
 			center x 0 y 0
 			radius 1.5
+			width 0.15
 		[CIRCLE END]
 	[TOP END]
 [CONDUCTOR END]
