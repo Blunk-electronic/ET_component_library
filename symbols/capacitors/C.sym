@@ -5,78 +5,54 @@
 appearance pcb
 
 [DRAW BEGIN]
-	-- positive port: +
-	[LINE BEGIN] -- 1st vertical line left
-		start x -1.0 y  2
-		end   x -1.0 y -2
-		width 0.15
+	[LINE BEGIN] -- upper plate
+		start x -2 y 0.5
+		end   x  2 y 0.5
+		width 0.2
 	[LINE END]
-	[LINE BEGIN] -- 2nd vertical line left
-		start x -0.5 y  2
-		end   x -0.5 y -2
-		width 0.15
+	[LINE BEGIN] -- lower plate
+		start x -2 y -0.5
+		end   x  2 y -0.5
+		width 0.2
 	[LINE END]
-	[LINE BEGIN] -- upper horizontal line left
-		start x -1.0 y  2
-		end   x -0.5 y  2
-		width 0.15
-	[LINE END]
-	[LINE BEGIN] -- lower horizontal line left
-		start x -1.0 y -2
-		end   x -0.5 y -2
-		width 0.15
-	[LINE END]
-	
-	-- negative port: - 
-	[LINE BEGIN] -- vertical line right
-		start x 0.5 y  2
-		end   x 0.5 y -2
-		width 0.15
-	[LINE END]	
 [DRAW END]
+
 
 [PLACEHOLDERS BEGIN]
 	[PLACEHOLDER BEGIN]
 		meaning name
-		position x 0 y -4
+		position x 1.6 y 1
 		size 1.2
 		rotation 0
-		alignment horizontal center vertical bottom
+		alignment horizontal left vertical bottom
 	[PLACEHOLDER END]
 	[PLACEHOLDER BEGIN]
 		meaning value
-		position x 0 y -6
+		position x 1.6 y -2.5
 		size 1.2
 		rotation 0
-		alignment horizontal center vertical bottom
-	[PLACEHOLDER END]
-	[PLACEHOLDER BEGIN]
-		meaning purpose
-		position x 0 y -8
-		size 1.2
-		rotation 0
-		alignment horizontal center vertical bottom
+		alignment horizontal left vertical bottom
 	[PLACEHOLDER END]
 [PLACEHOLDERS END]
 
 [PORTS BEGIN]
 	[PORT BEGIN]
-		name +
-		position x -5 y 0
+		name 1
+		position x 0 y 4
 		direction passive
-		length 4.0
-		rotation 180
+		length 3.5
+		rotation 90
 		port_name_visible no
 		port_name_size 1.30
 		terminal_name_visible no
 		terminal_name_size 1.30
 	[PORT END]
 	[PORT BEGIN]
-		name -
-		position x 5 y 0
+		name 2
+		position x 0 y -4
 		direction passive
-		length 4.5
-		rotation 0
+		length 3.5
+		rotation -90
 		port_name_visible no
 		port_name_size 1.30
 		terminal_name_visible no
