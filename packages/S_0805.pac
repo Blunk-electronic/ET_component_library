@@ -1,70 +1,77 @@
 -- SYSTEM ET package
--- date 2019-10-21T11:44:48
+-- date 2022-12-26T17:20:00
 -- ====================================================================================================
 
-description ""
+description "imperial SMT 0805 package"
 appearance real
 technology smt
+
 [SILK_SCREEN BEGIN]
 	[TOP BEGIN]
-		[LINE BEGIN]
-			start x -3 y 2
-			end x 3 y 2
-			width 0.150
-		[LINE END]
-		[LINE BEGIN]
-			start x -3 y -2
-			end x 3 y -2
-			width 0.150
-		[LINE END]
-		[LINE BEGIN]
-			start x -3 y 2
-			end x -3 y -2
-			width 0.150
-		[LINE END]
-		[LINE BEGIN]
-			start x 3 y 2
-			end x 3 y -2
-			width 0.150
-		[LINE END]
-		
 		[PLACEHOLDER BEGIN]
 			meaning name
-			position x 0.000 y -3.700 rotation 0.00
-			size 1.000
+			position x 2.200 y 0.0 rotation 90.00
+			size 1.200
 			line_width 0.150
 			alignment horizontal center vertical bottom
 		[PLACEHOLDER END]
 	[TOP END]
-	[BOTTOM BEGIN]
-	[BOTTOM END]
 [SILK_SCREEN END]
-	
+
+
 [ASSEMBLY_DOCUMENTATION BEGIN]
 	[TOP BEGIN]
+		[LINE BEGIN]
+			start x -0.6 y -1.1
+			end   x  0.6 y -1.1
+			width 0.150
+		[LINE END]
+		[LINE BEGIN]
+			start x  0.6 y -1.1
+			end   x  0.6 y  1.1
+			width 0.150
+		[LINE END]
+		[LINE BEGIN]
+			start x  0.6 y  1.1
+			end   x -0.6 y  1.1
+			width 0.150
+		[LINE END]
+		[LINE BEGIN]
+			start x -0.6 y  1.1
+			end   x -0.6 y -1.1
+			width 0.150
+		[LINE END]
+		
+		[PLACEHOLDER BEGIN]
+			meaning value
+			position x 3.800 y 0.0 rotation 90.00
+			size 1.200
+			line_width 0.150
+			alignment horizontal center vertical bottom
+		[PLACEHOLDER END]
 	[TOP END]
-	[BOTTOM BEGIN]
-	[BOTTOM END]
 [ASSEMBLY_DOCUMENTATION END]
+
+
 
 [KEEPOUT BEGIN]
 	[TOP BEGIN]
--- 		[LINE BEGIN]
--- 			start x -1.600 y -1.000
--- 			end x 1.600 y -1.000
--- 		[LINE END]
--- 		[LINE BEGIN]
--- 			start x -1.600 y 1.000
--- 			end x 1.600 y 1.000
--- 		[LINE END]
--- 		[LINE BEGIN]
--- 			start x -1.600 y -1.000
--- 			end x -1.600 y 1.000
--- 		[LINE END]
--- 		[LINE BEGIN]
--- 			start x 1.600 y -1.000
--- 			end x 1.600 y 1.000
--- 		[LINE END]
+ 		[LINE BEGIN]
+ 			start x -1.0 y -2.0
+			end   x  1.0 y -2.0
+ 		[LINE END]
+ 		[LINE BEGIN]
+ 			start x  1.0 y -2.0
+ 			end   x  1.0 y  2.0
+ 		[LINE END]
+ 		[LINE BEGIN]
+ 			start x  1.0 y  2.0
+ 			end   x -1.0 y  2.0
+ 		[LINE END]
+ 		[LINE BEGIN]
+ 			start x -1.0 y  2.0
+ 			end   x -1.0 y -2.0
+ 		[LINE END]
 	[TOP END]
 [KEEPOUT END]
 
@@ -72,78 +79,53 @@ technology smt
 	[TERMINAL BEGIN]
 		name 1
 		technology smt
-		position x -2.0 y -0.000 rotation 0.00
+		position x 0 y 0.95 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
-			--[LINE BEGIN]
-				--start x -1 y -1
-				--end x 1 y -1
-			--[LINE END]
-			--[LINE BEGIN]
-				--start x 1 y -1
-				--end x 1 y 1
-			--[LINE END]
-			--[LINE BEGIN]
-				--start x 1 y 1
-				--end x -1 y 1
-			--[LINE END]
-			--[LINE BEGIN]
-				--start x -1 y 1
-				--end x -1 y -1
-			--[LINE END]
-			[CIRCLE BEGIN]
-				center x 0 y 0
-				radius 0.8
-			[CIRCLE END]
+			[LINE BEGIN]
+				start x -0.75 y -0.65
+				end   x  0.75 y -0.65
+			[LINE END]
+			[LINE BEGIN]
+				start x  0.75 y -0.65
+				end   x  0.75 y  0.65
+			[LINE END]
+			[LINE BEGIN]
+				start x  0.75 y  0.65
+				end   x -0.75 y  0.65
+			[LINE END]
+			[LINE BEGIN]
+				start x -0.75 y  0.65
+				end   x -0.75 y -0.65
+			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-		stop_mask_shape user_specific -- as_pad, expand_pad, user_specific
-		[STOP_MASK_CONTOURS_SMT BEGIN]
-			[LINE BEGIN]
-				start x -0.5 y -0.5
-				end x 0.5 y -0.5
-			[LINE END]
-			[LINE BEGIN]
-				start x 0.5 y -0.5
-				end x 0.5 y 0.5
-			[LINE END]
-			[LINE BEGIN]
-				start x 0.5 y 0.5
-				end x -0.5 y 0.5
-			[LINE END]
-			[LINE BEGIN]
-				start x -0.5 y 0.5
-				end x -0.5 y -0.5
-			[LINE END]
-		[STOP_MASK_CONTOURS_SMT END]
-
+		stop_mask_shape expand_pad
 	[TERMINAL END]
-
 	[TERMINAL BEGIN]
 		name 2
 		technology smt
-		position x 2.0 y -0.000 rotation 0.00
+		position x 0 y -0.95 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
 			[LINE BEGIN]
-				start x -1 y -1
-				end x 1 y -1
+				start x -0.75 y -0.65
+				end   x  0.75 y -0.65
 			[LINE END]
 			[LINE BEGIN]
-				start x 1 y -1
-				end x 1 y 1
+				start x  0.75 y -0.65
+				end   x  0.75 y  0.65
 			[LINE END]
 			[LINE BEGIN]
-				start x 1 y 1
-				end x -1 y 1
+				start x  0.75 y  0.65
+				end   x -0.75 y  0.65
 			[LINE END]
 			[LINE BEGIN]
-				start x -1 y 1
-				end x -1 y -1
+				start x -0.75 y  0.65
+				end   x -0.75 y -0.65
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
 		face top
-	[TERMINAL END]
-
-	
+		stop_mask_shape expand_pad
+	[TERMINAL END]	
 [TERMINALS END]
 
 -- ====================================================================================================
