@@ -96,35 +96,11 @@ technology tht
 
 [KEEPOUT BEGIN]
 	[TOP BEGIN]
-		[LINE BEGIN]
-			start x -15 y 2
-			end x 3 y 2
-		[LINE END]
-		[LINE BEGIN]
-			start x -15 y -2
-			end x 3 y -2
-		[LINE END]
-		[LINE BEGIN]
-			start x -15 y 2
-			end x -15 y -2
-		[LINE END]
-		[LINE BEGIN]
-			start x 3 y 2
-			end x 3 y -2
-		[LINE END]
 	[TOP END]
 [KEEPOUT END]
 
 [ROUTE_RESTRICT BEGIN]
 	[TOP BEGIN]
-		[TEXT BEGIN]
-			position x 4 y -1 rotation 0
-			size 1.0
-			line_width 0.15
-			content "top: no tracks here"
-			alignment horizontal left vertical bottom
-		[TEXT END]
-		
 		--[LINE BEGIN]
 			--start x 0 y -5
 			--end x 7 y -5
@@ -179,33 +155,11 @@ technology tht
 	[TOP END]
 
 	[BOTTOM BEGIN]
-		[TEXT BEGIN]
-			position x 4 y 1 rotation 0
-			size 1.0
-			line_width 0.15
-			content "bottom: no tracks here"
-			alignment horizontal left vertical bottom
-		[TEXT END]
-
-
-	--[CIRCLE BEGIN]
-			--center x 0 y 0
-			--radius 3
-		--[CIRCLE END]
 	[BOTTOM END]
 [ROUTE_RESTRICT END]
 
 [VIA_RESTRICT BEGIN]
 	[TOP BEGIN]
-		[TEXT BEGIN]
-			position x 4 y 2 rotation 0
-			size 1.0
-			line_width 0.15
-			content "top: no vias here"
-			alignment horizontal left vertical bottom
-		[TEXT END]
-
-
 		--[LINE BEGIN]
 			--start x 0 y -5
 			--end x 7 y -5
@@ -260,14 +214,6 @@ technology tht
 	[TOP END]
 
 	[BOTTOM BEGIN]
-		[TEXT BEGIN]
-			position x 4 y -2 rotation 0
-			size 1.0
-			line_width 0.15
-			content "bottom: no vias here"
-			alignment horizontal left vertical bottom
-		[TEXT END]
-
 		[CIRCLE BEGIN]
 			center x 0 y 0
 			radius 3

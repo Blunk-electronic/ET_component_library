@@ -56,22 +56,6 @@ technology smt
 
 [KEEPOUT BEGIN]
 	[TOP BEGIN]
- 		[LINE BEGIN]
- 			start x -1.2 y -2.6
-			end   x  1.2 y -2.6
- 		[LINE END]
- 		[LINE BEGIN]
- 			start x  1.2 y -2.6
- 			end   x  1.2 y  2.6
- 		[LINE END]
- 		[LINE BEGIN]
- 			start x  1.2 y  2.6
- 			end   x -1.2 y  2.6
- 		[LINE END]
- 		[LINE BEGIN]
- 			start x -1.2 y  2.6
- 			end   x -1.2 y -2.6
- 		[LINE END]
 	[TOP END]
 [KEEPOUT END]
 

@@ -57,23 +57,7 @@ technology tht
 [ASSEMBLY_DOCUMENTATION END]
 
 [KEEPOUT BEGIN]
-	[TOP BEGIN]
-		[LINE BEGIN]
-			start x -15 y 2
-			end x 3 y 2
-		[LINE END]
-		[LINE BEGIN]
-			start x -15 y -2
-			end x 3 y -2
-		[LINE END]
-		[LINE BEGIN]
-			start x -15 y 2
-			end x -15 y -2
-		[LINE END]
-		[LINE BEGIN]
-			start x 3 y 2
-			end x 3 y -2
-		[LINE END]
+	[TOP BEGIN]		
 	[TOP END]
 [KEEPOUT END]
 

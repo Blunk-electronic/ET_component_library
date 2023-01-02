@@ -75,22 +75,22 @@ technology tht
 
 [KEEPOUT BEGIN]
 	[TOP BEGIN]
-		[LINE BEGIN]
-			start x -7 y -3
-			end x -7 y 3
-		[LINE END]
-		[LINE BEGIN]
-			start x 7 y -3
-			end x 7 y 3
-		[LINE END]
-		[LINE BEGIN]
-			start x -7 y -3
-			end x 7 y -3
-		[LINE END]
-		[LINE BEGIN]
-			start x -7 y 3
-			end x 7 y 3
-		[LINE END]
+		--[LINE BEGIN]
+			--start x -7 y -3
+			--end x -7 y 3
+		--[LINE END]
+		--[LINE BEGIN]
+			--start x 7 y -3
+			--end x 7 y 3
+		--[LINE END]
+		--[LINE BEGIN]
+			--start x -7 y -3
+			--end x 7 y -3
+		--[LINE END]
+		--[LINE BEGIN]
+			--start x -7 y 3
+			--end x 7 y 3
+		--[LINE END]
 	[TOP END]
 [KEEPOUT END]
 

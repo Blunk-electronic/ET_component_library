@@ -20,10 +20,10 @@ technology tht -- don't care here
 
 [KEEPOUT BEGIN]
 	[TOP BEGIN]
-		[CIRCLE BEGIN]
-			center x 0 y 0
-			radius 2.4
-		[CIRCLE END]
+		--[CIRCLE BEGIN]
+			--center x 0 y 0
+			--radius 2.4
+		--[CIRCLE END]
 	[TOP END]
 [KEEPOUT END]
 
