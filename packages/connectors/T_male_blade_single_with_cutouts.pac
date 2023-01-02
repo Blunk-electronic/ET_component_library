@@ -271,6 +271,7 @@ technology tht
 		[CIRCLE BEGIN]
 			center x 0 y 0
 			radius 3
+			width 0.15
 		[CIRCLE END]
 	[BOTTOM END]
 [VIA_RESTRICT END]

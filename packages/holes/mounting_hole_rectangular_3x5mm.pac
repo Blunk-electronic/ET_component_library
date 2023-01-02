@@ -33,35 +33,99 @@ technology tht -- don't care here
 	--[BOTTOM END]
 --[KEEPOUT END]
 
---[ROUTE_RESTRICT BEGIN]
-	--[TOP BEGIN]
-		--[CIRCLE BEGIN]
-			--center x 0 y 0
-			--radius 4.5
-		--[CIRCLE END]
-	--[TOP END]
-	--[BOTTOM BEGIN]
-		--[CIRCLE BEGIN]
-			--center x 0 y 0
-			--radius 4.5
-		--[CIRCLE END]
-	--[BOTTOM END]
---[ROUTE_RESTRICT END]
+[ROUTE_RESTRICT BEGIN]
+	[TOP BEGIN]
+		[LINE BEGIN]
+			start x -2.0 y -3.0
+			end   x  2.0 y -3.0
+			width 1.0
+		[LINE END]
+		[LINE BEGIN]
+			start x  2.0 y -3.0
+			end   x  2.0 y  3.0
+			width 1.0
+		[LINE END]
+		[LINE BEGIN]
+			start x  2.0 y  3.0
+			end   x -2.0 y  3.0
+			width 1.0
+		[LINE END]
+		[LINE BEGIN]
+			start x -2.0 y  3.0
+			end   x -2.0 y -3.0
+			width 1.0
+		[LINE END]
+	[TOP END]
+	[BOTTOM BEGIN]
+		[LINE BEGIN]
+			start x -2.0 y -3.0
+			end   x  2.0 y -3.0
+			width 1.0
+		[LINE END]
+		[LINE BEGIN]
+			start x  2.0 y -3.0
+			end   x  2.0 y  3.0
+			width 1.0
+		[LINE END]
+		[LINE BEGIN]
+			start x  2.0 y  3.0
+			end   x -2.0 y  3.0
+			width 1.0
+		[LINE END]
+		[LINE BEGIN]
+			start x -2.0 y  3.0
+			end   x -2.0 y -3.0
+			width 1.0
+		[LINE END]
+	[BOTTOM END]
+[ROUTE_RESTRICT END]
 
---[VIA_RESTRICT BEGIN]
-	--[TOP BEGIN]
-		--[CIRCLE BEGIN]
-			--center x 0 y 0
-			--radius 4.5
-		--[CIRCLE END]
-	--[TOP END]
-	--[BOTTOM BEGIN]
-		--[CIRCLE BEGIN]
-			--center x 0 y 0
-			--radius 4.5
-		--[CIRCLE END]
-	--[BOTTOM END]
---[VIA_RESTRICT END]
+[VIA_RESTRICT BEGIN]
+	[TOP BEGIN]
+		[LINE BEGIN]
+			start x -2.0 y -3.0
+			end   x  2.0 y -3.0
+			width 1.0
+		[LINE END]
+		[LINE BEGIN]
+			start x  2.0 y -3.0
+			end   x  2.0 y  3.0
+			width 1.0
+		[LINE END]
+		[LINE BEGIN]
+			start x  2.0 y  3.0
+			end   x -2.0 y  3.0
+			width 1.0
+		[LINE END]
+		[LINE BEGIN]
+			start x -2.0 y  3.0
+			end   x -2.0 y -3.0
+			width 1.0
+		[LINE END]
+	[TOP END]
+	[BOTTOM BEGIN]
+		[LINE BEGIN]
+			start x -2.0 y -3.0
+			end   x  2.0 y -3.0
+			width 1.0
+		[LINE END]
+		[LINE BEGIN]
+			start x  2.0 y -3.0
+			end   x  2.0 y  3.0
+			width 1.0
+		[LINE END]
+		[LINE BEGIN]
+			start x  2.0 y  3.0
+			end   x -2.0 y  3.0
+			width 1.0
+		[LINE END]
+		[LINE BEGIN]
+			start x -2.0 y  3.0
+			end   x -2.0 y -3.0
+			width 1.0
+		[LINE END]
+	[BOTTOM END]
+[VIA_RESTRICT END]
 
 
 [PCB_CONTOURS_NON_PLATED BEGIN]
