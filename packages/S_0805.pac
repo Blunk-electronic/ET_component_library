@@ -56,22 +56,26 @@ technology smt
 
 [KEEPOUT BEGIN]
 	[TOP BEGIN]
- 		--[LINE BEGIN]
- 			--start x -1.0 y -2.0
-			--end   x  1.0 y -2.0
- 		--[LINE END]
- 		--[LINE BEGIN]
- 			--start x  1.0 y -2.0
- 			--end   x  1.0 y  2.0
- 		--[LINE END]
- 		--[LINE BEGIN]
- 			--start x  1.0 y  2.0
- 			--end   x -1.0 y  2.0
- 		--[LINE END]
- 		--[LINE BEGIN]
- 			--start x -1.0 y  2.0
- 			--end   x -1.0 y -2.0
- 		--[LINE END]
+		[ZONE BEGIN]
+			[CONTOURS BEGIN]
+				[LINE BEGIN]
+					start x -1.0 y -2.0
+					end   x  1.0 y -2.0
+				[LINE END]
+				[LINE BEGIN]
+					start x  1.0 y -2.0
+					end   x  1.0 y  2.0
+				[LINE END]
+				[LINE BEGIN]
+					start x  1.0 y  2.0
+					end   x -1.0 y  2.0
+				[LINE END]
+				[LINE BEGIN]
+					start x -1.0 y  2.0
+					end   x -1.0 y -2.0
+				[LINE END]
+			[CONTOURS END]
+		[ZONE END]
 	[TOP END]
 [KEEPOUT END]
 

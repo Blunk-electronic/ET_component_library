@@ -18,20 +18,52 @@ technology tht -- don't care here
 	--[TOP END]
 --[SILK_SCREEN END]
 
---[KEEPOUT BEGIN]
-	--[TOP BEGIN]
-		--[CIRCLE BEGIN]
-			--center x 0 y 0
-			--radius 4
-		--[CIRCLE END]
-	--[TOP END]
-	--[BOTTOM BEGIN]
-		--[CIRCLE BEGIN]
-			--center x 0 y 0
-			--radius 4
-		--[CIRCLE END]
-	--[BOTTOM END]
---[KEEPOUT END]
+[KEEPOUT BEGIN]
+	[TOP BEGIN]
+		[ZONE BEGIN]
+			[CONTOURS BEGIN]
+				[LINE BEGIN]
+					start x -2.5 y -3.5
+					end   x  2.5 y -3.5
+				[LINE END]
+				[LINE BEGIN]
+					start x  2.5 y -3.5
+					end   x  2.5 y  3.5
+				[LINE END]
+				[LINE BEGIN]
+					start x  2.5 y  3.5
+					end   x -2.5 y  3.5
+				[LINE END]
+				[LINE BEGIN]
+					start x -2.5 y  3.5
+					end   x -2.5 y -3.5
+				[LINE END]
+			[CONTOURS END]
+		[ZONE END]
+	[TOP END]
+	[BOTTOM BEGIN]
+		[ZONE BEGIN]
+			[CONTOURS BEGIN]
+				[LINE BEGIN]
+					start x -2.5 y -3.5
+					end   x  2.5 y -3.5
+				[LINE END]
+				[LINE BEGIN]
+					start x  2.5 y -3.5
+					end   x  2.5 y  3.5
+				[LINE END]
+				[LINE BEGIN]
+					start x  2.5 y  3.5
+					end   x -2.5 y  3.5
+				[LINE END]
+				[LINE BEGIN]
+					start x -2.5 y  3.5
+					end   x -2.5 y -3.5
+				[LINE END]
+			[CONTOURS END]
+		[ZONE END]
+	[BOTTOM END]
+[KEEPOUT END]
 
 [ROUTE_RESTRICT BEGIN]
 	[TOP BEGIN]

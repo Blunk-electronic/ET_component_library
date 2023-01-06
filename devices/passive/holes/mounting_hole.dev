@@ -7,8 +7,8 @@ appearance pcb
 
 [VARIANTS BEGIN]
 	[VARIANT BEGIN]
-		name 4mm
-		package_model $HOME/git/BEL/ET_component_library/packages/holes/mounting_hole_4.pac
+		name round_4mm
+		package_model $HOME/git/BEL/ET_component_library/packages/holes/mounting_hole_electrical_round_4mm.pac
 		[TERMINAL_PORT_MAP BEGIN]
 			terminal 1 unit 1 port 1
 		[TERMINAL_PORT_MAP END]

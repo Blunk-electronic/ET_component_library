@@ -125,7 +125,7 @@ technology tht
 			[CONTOURS END]
 		[CUTOUT_ZONE END]
 		
-		[FILL_ZONE BEGIN]
+		[ZONE BEGIN]
 			[CONTOURS BEGIN]
 				--[CIRCLE BEGIN]
 					--center x 2 y 0
@@ -151,7 +151,7 @@ technology tht
 					direction cw
 				[ARC END]					
 			[CONTOURS END]
-		[FILL_ZONE END]		
+		[ZONE END]		
 	[TOP END]
 
 	[BOTTOM BEGIN]
@@ -184,7 +184,7 @@ technology tht
 			[CONTOURS END]
 		[CUTOUT_ZONE END]
 		
-		[FILL_ZONE BEGIN]
+		[ZONE BEGIN]
 			[CONTOURS BEGIN]
 				--[CIRCLE BEGIN]
 					--center x 2 y 0
@@ -210,7 +210,7 @@ technology tht
 					direction cw
 				[ARC END]					
 			[CONTOURS END]
-		[FILL_ZONE END]		
+		[ZONE END]		
 	[TOP END]
 
 	[BOTTOM BEGIN]
