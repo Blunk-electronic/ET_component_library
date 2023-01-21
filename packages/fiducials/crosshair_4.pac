@@ -92,19 +92,15 @@ technology tht -- don't care here
 
 [STOP_MASK BEGIN]
 	[TOP BEGIN]
-		[CIRCLE BEGIN]
-			center x 0 y 0
-			radius 2.4
-			filled yes
-		[CIRCLE END]
+		[ZONE BEGIN]
+			[CONTOURS BEGIN]
+				[CIRCLE BEGIN]
+					center x 0 y 0
+					radius 2.4
+				[CIRCLE END]
+			[CONTOURS END]
+		[ZONE END]
 	[TOP END]
-	[BOTTOM BEGIN]
-		[CIRCLE BEGIN]
-			center x 0 y 0
-			radius 2.4
-			filled yes
-		[CIRCLE END]
-	[BOTTOM END]
 [STOP_MASK END]
 
 
