@@ -37,14 +37,6 @@ technology tht
 		[PLACEHOLDER END]
 
 		[PLACEHOLDER BEGIN]
-			meaning value
-			position x -0.000 y -4.5 rotation 0.00
-			size 1.000
-			line_width 0.15
-			alignment horizontal left vertical center
-		[PLACEHOLDER END]
-
-		[PLACEHOLDER BEGIN]
 			meaning purpose
 			position x -0.000 y -6.0 rotation 0.00
 			size 1.000
@@ -68,10 +60,23 @@ technology tht
 			end x 6 y 0
 			width 0.30
 		[LINE END]
+
+		[PLACEHOLDER BEGIN]
+			meaning value
+			position x -0.000 y -4.5 rotation 0.00
+			size 1.000
+			line_width 0.15
+			alignment horizontal left vertical center
+		[PLACEHOLDER END]
+
 	[TOP END]
+		
 	[BOTTOM BEGIN]
 	[BOTTOM END]
+
+
 [ASSEMBLY_DOCUMENTATION END]
+
 
 [KEEPOUT BEGIN]
 	[TOP BEGIN]

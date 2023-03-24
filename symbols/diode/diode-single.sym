@@ -5,64 +5,100 @@
 appearance pcb
 
 [DRAW BEGIN]
+	-- body
 	[LINE BEGIN]
-		start x -2 y 0
-		end   x 1 y 0
+		start x -1.5 y 1.5
+		end   x  1.5 y 1.5
 		width 0.15
 	[LINE END]
 	[LINE BEGIN]
-		start x -2 y -2
-		end   x -2 y 2
+		start x -1.5 y  1.5
+		end   x  0   y -1.5
 		width 0.15
 	[LINE END]
 	[LINE BEGIN]
-		start x -2 y -2
-		end   x  1 y 0
+		start x 1.5 y  1.5
+		end   x  0  y -1.5
 		width 0.15
 	[LINE END]
 	[LINE BEGIN]
-		start x -2 y 2
-		end   x 1 y 0
+		start x -1.5 y -1.5
+		end   x  1.5 y -1.5
 		width 0.15
 	[LINE END]
 	[LINE BEGIN]
-		start x 1 y 2
-		end   x 1 y -2
+		start x 0 y  2
+		end   x 0 y -2
+		width 0.2
+	[LINE END]	
+	
+	-- arrow 1
+	[LINE BEGIN]
+		start x -2 y 0.8
+		end   x -3 y 0.4
 		width 0.15
 	[LINE END]	
+	[LINE BEGIN]
+		start x -2.8 y 0.8
+		end   x -3 y 0.4
+		width 0.15
+	[LINE END]	
+	[LINE BEGIN]
+		start x -2.65 y 0.2
+		end   x -3 y 0.4
+		width 0.15
+	[LINE END]	
+
+	-- arrow 2
+	[LINE BEGIN]
+		start x -1.6 y -0.2
+		end   x -2.6 y -0.6
+		width 0.15
+	[LINE END]	
+	[LINE BEGIN]
+		start x -2.4 y -0.2
+		end   x -2.6 y -0.6
+		width 0.15
+	[LINE END]	
+	[LINE BEGIN]
+		start x -2.25 y -0.8
+		end   x -2.6 y -0.6
+		width 0.15
+	[LINE END]	
+	
 [DRAW END]
 
 [PLACEHOLDERS BEGIN]
 	[PLACEHOLDER BEGIN]
 		meaning name
-		position x 0 y -3
-		size 2.0
+		position x 2 y 1
+		size 1.2
 		rotation 0
-		alignment horizontal center vertical center
+		alignment horizontal left vertical bottom
 	[PLACEHOLDER END]
 	[PLACEHOLDER BEGIN]
 		meaning value
-		position x 0 y -5
-		size 2.0
+		position x 2 y -1
+		size 1.2
 		rotation 0
-		alignment horizontal center vertical bottom
+		alignment horizontal left vertical bottom
 	[PLACEHOLDER END]
 	[PLACEHOLDER BEGIN]
 		meaning purpose
-		position x 0 y -7
-		size 2.0
+		position x 2 y -3
+		size 1.2
 		rotation 0
-		alignment horizontal center vertical bottom
+		alignment horizontal left vertical bottom
 	[PLACEHOLDER END]
 [PLACEHOLDERS END]
 
 [PORTS BEGIN]
 	[PORT BEGIN]
 		name A
-		position x -5 y 0
+		position x 0 y 4
 		direction passive
-		length 5
-		rotation 180
+		length 2
+		rotation 90
 		port_name_visible no
 		port_name_size 1.30
 		terminal_name_visible no
@@ -70,10 +106,10 @@ appearance pcb
 	[PORT END]
 	[PORT BEGIN]
 		name C
-		position x 6 y 0
+		position x 0 y -4
 		direction passive
-		length 5
-		rotation 0
+		length 2
+		rotation -90
 		port_name_visible no
 		port_name_size 1.30
 		terminal_name_visible no
