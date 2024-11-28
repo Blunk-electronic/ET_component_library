@@ -15,6 +15,17 @@ appearance pcb
 			terminal  3 unit 1 port E
 		[TERMINAL_PORT_MAP END]
 	[VARIANT END]
+	
+	[VARIANT BEGIN]
+		name T_TO220H
+		package_model $HOME/git/BEL/ET_component_library/packages/T_TO220H.pac
+		[TERMINAL_PORT_MAP BEGIN]
+			terminal  1 unit 1 port B
+			terminal  2 unit 1 port C
+			terminal  3 unit 1 port E
+		[TERMINAL_PORT_MAP END]
+	[VARIANT END]
+	
 [VARIANTS END]
 
 [UNITS_EXTERNAL BEGIN]
