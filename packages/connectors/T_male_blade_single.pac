@@ -7,6 +7,13 @@ appearance real
 technology tht
 [SILK_SCREEN BEGIN]
 	[TOP BEGIN]
+		[ARC BEGIN]
+			start x -5 y 0
+			center x 0 y 0
+			end x 5 y 0
+			width 0.2
+			direction ccw
+		[ARC END]
 		[LINE BEGIN]
 			start x -3 y 1.5
 			end x 3 y 1.5
@@ -31,14 +38,14 @@ technology tht
 			meaning name
 			position x 3.5 y 0 rotation 0.00
 			size 1.500
-			line_width 0.150
+			linewidth 0.150
 			alignment horizontal left vertical center
 		[PLACEHOLDER END]
 		[PLACEHOLDER BEGIN]
 			meaning purpose
 			position x 3.5 y -2 rotation 0.00
 			size 1.500
-			line_width 0.150
+			linewidth 0.150
 			alignment horizontal left vertical center
 		[PLACEHOLDER END]
 	[TOP END]

@@ -69,14 +69,14 @@ technology tht
 			meaning name
 			position x 3.5 y 0 rotation 0.00
 			size 1.500
-			line_width 0.150
+			linewidth 0.150
 			alignment horizontal left vertical center
 		[PLACEHOLDER END]
 		[PLACEHOLDER BEGIN]
 			meaning purpose
 			position x 3.5 y -2 rotation 0.00
 			size 1.500
-			line_width 0.150
+			linewidth 0.150
 			alignment horizontal left vertical center
 		[PLACEHOLDER END]
 	[TOP END]
