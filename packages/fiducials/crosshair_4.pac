@@ -12,7 +12,7 @@ technology tht -- don't care here
 			meaning name
 			position x -1.000 y -3.0 rotation 0.00
 			size 1.000
-			line_width 0.15
+			linewidth 0.15
 			alignment horizontal center vertical center
 		[PLACEHOLDER END]
 	[TOP END]
