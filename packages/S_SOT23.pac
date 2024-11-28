@@ -12,7 +12,7 @@ technology smt
 			meaning name
 			position x 2 y -0.7 rotation 0.00
 			size 1.200
-			line_width 0.150
+			linewidth 0.150
 			alignment horizontal left vertical bottom
 		[PLACEHOLDER END]
 	[TOP END]
@@ -46,7 +46,7 @@ technology smt
 			meaning value
 			position x 2 y -2.4 rotation 0.00
 			size 1.200
-			line_width 0.150
+			linewidth 0.150
 			alignment horizontal left vertical bottom
 		[PLACEHOLDER END]
 	[TOP END]
