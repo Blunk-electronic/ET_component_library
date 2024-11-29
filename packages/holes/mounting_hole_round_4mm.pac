@@ -64,7 +64,7 @@ technology tht -- don't care here
 	[BOTTOM END]
 [VIA_RESTRICT END]
 
-[STOP_MASK BEGIN]
+[STOPMASK BEGIN]
 	[TOP BEGIN]
 		[ZONE BEGIN]
 			[CONTOURS BEGIN]
@@ -85,7 +85,7 @@ technology tht -- don't care here
 			[CONTOURS END]
 		[ZONE END]
 	[BOTTOM END]
-[STOP_MASK END]
+[STOPMASK END]
 
 
 --[CONDUCTOR BEGIN]
