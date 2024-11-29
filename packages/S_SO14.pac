@@ -5,7 +5,7 @@
 description ""
 appearance real
 technology smt
-[SILK_SCREEN BEGIN]
+[SILKSCREEN BEGIN]
 	[TOP BEGIN]
 		[LINE BEGIN]
 			start x -1.800 y -4.375
@@ -56,7 +56,7 @@ technology smt
 	[TOP END]
 	[BOTTOM BEGIN]
 	[BOTTOM END]
-[SILK_SCREEN END]
+[SILKSCREEN END]
 
 [ASSEMBLY_DOCUMENTATION BEGIN]
 	[TOP BEGIN]

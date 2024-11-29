@@ -6,7 +6,7 @@ description "imperial THT TO220 horizontal"
 appearance real
 technology tht
 
-[SILK_SCREEN BEGIN]
+[SILKSCREEN BEGIN]
 	[TOP BEGIN]
 		[PLACEHOLDER BEGIN]
 			meaning name
@@ -16,7 +16,7 @@ technology tht
 			alignment horizontal center vertical bottom
 		[PLACEHOLDER END]
 	[TOP END]
-[SILK_SCREEN END]
+[SILKSCREEN END]
 
 
 [ASSEMBLY_DOCUMENTATION BEGIN]
@@ -54,7 +54,7 @@ technology tht
 
 
 
--- [SILK_SCREEN BEGIN]
+-- [SILKSCREEN BEGIN]
 -- 	[TOP BEGIN]
 -- 		[ZONE BEGIN]
 -- 			[CONTOURS BEGIN]
@@ -77,7 +77,7 @@ technology tht
 -- 			[CONTOURS END]
 -- 		[ZONE END]
 -- 	[TOP END]
--- [SILK_SCREEN END]
+-- [SILKSCREEN END]
 
 
 [KEEPOUT BEGIN]

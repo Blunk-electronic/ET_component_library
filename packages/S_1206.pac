@@ -6,7 +6,7 @@ description "imperial SMT 1206 package"
 appearance real
 technology smt
 
-[SILK_SCREEN BEGIN]
+[SILKSCREEN BEGIN]
 	[TOP BEGIN]
 		[PLACEHOLDER BEGIN]
 			meaning name
@@ -16,7 +16,7 @@ technology smt
 			alignment horizontal center vertical bottom
 		[PLACEHOLDER END]
 	[TOP END]
-[SILK_SCREEN END]
+[SILKSCREEN END]
 
 
 [ASSEMBLY_DOCUMENTATION BEGIN]

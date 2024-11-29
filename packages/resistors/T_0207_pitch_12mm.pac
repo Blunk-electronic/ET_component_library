@@ -5,7 +5,7 @@
 description ""
 appearance real
 technology tht
-[SILK_SCREEN BEGIN]
+[SILKSCREEN BEGIN]
 	[TOP BEGIN]
 		[LINE BEGIN]
 			start x -4 y -2
@@ -46,7 +46,7 @@ technology tht
 	[TOP END]
 	[BOTTOM BEGIN]
 	[BOTTOM END]
-[SILK_SCREEN END]
+[SILKSCREEN END]
 
 [ASSEMBLY_DOCUMENTATION BEGIN]
 	[TOP BEGIN]

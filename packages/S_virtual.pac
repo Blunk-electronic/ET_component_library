@@ -5,7 +5,7 @@
 description ""
 appearance virtual
 technology smt
-[SILK_SCREEN BEGIN]
+[SILKSCREEN BEGIN]
 	[TOP BEGIN]
 		[LINE BEGIN]
 			start x 0.600 y 0.875
@@ -27,7 +27,7 @@ technology smt
 	[TOP END]
 	[BOTTOM BEGIN]
 	[BOTTOM END]
-[SILK_SCREEN END]
+[SILKSCREEN END]
 [ASSEMBLY_DOCUMENTATION BEGIN]
 	[TOP BEGIN]
 		[LINE BEGIN]

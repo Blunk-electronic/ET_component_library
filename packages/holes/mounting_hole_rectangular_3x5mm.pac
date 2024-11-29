@@ -6,7 +6,7 @@ description ""
 appearance real
 technology tht -- don't care here
 
---[SILK_SCREEN BEGIN]
+--[SILKSCREEN BEGIN]
 	--[TOP BEGIN]
 		--[PLACEHOLDER BEGIN]
 			--meaning name
@@ -16,7 +16,7 @@ technology tht -- don't care here
 			--alignment horizontal center vertical center
 		--[PLACEHOLDER END]
 	--[TOP END]
---[SILK_SCREEN END]
+--[SILKSCREEN END]
 
 [KEEPOUT BEGIN]
 	[TOP BEGIN]
