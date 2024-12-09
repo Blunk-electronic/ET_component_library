@@ -160,21 +160,6 @@ technology tht
 
 [VIA_RESTRICT BEGIN]
 	[TOP BEGIN]
-		--[LINE BEGIN]
-			--start x 0 y -5
-			--end x 7 y -5
-		--[LINE END]
-		--[LINE BEGIN]
-			--start x 0 y 5
-			--end x 7 y 5
-		--[LINE END]
-		--[ARC BEGIN]
-			--center x 7 y 0
-			--start x 7 y -5
-			--end x 7 y 5
-			--direction ccw
-		--[ARC END]
-		
 		[CUTOUT_ZONE BEGIN]
 			[CONTOURS BEGIN]
 				[CIRCLE BEGIN]
@@ -214,11 +199,6 @@ technology tht
 	[TOP END]
 
 	[BOTTOM BEGIN]
-		[CIRCLE BEGIN]
-			center x 0 y 0
-			radius 3
-			width 0.15
-		[CIRCLE END]
 	[BOTTOM END]
 [VIA_RESTRICT END]
 

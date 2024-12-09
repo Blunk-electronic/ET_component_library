@@ -60,20 +60,6 @@ technology tht -- don't care here
 [ROUTE_RESTRICT END]
 
 [VIA_RESTRICT BEGIN]
-	[TOP BEGIN]
-		[CIRCLE BEGIN]
-			center x 0 y 0
-			radius 3.3
-			width 2.4
-		[CIRCLE END]
-	[TOP END]
-	[BOTTOM BEGIN]
-		[CIRCLE BEGIN]
-			center x 0 y 0
-			radius 3.3
-			width 2.4
-		[CIRCLE END]
-	[BOTTOM END]
 [VIA_RESTRICT END]
 
 [STOPMASK BEGIN]

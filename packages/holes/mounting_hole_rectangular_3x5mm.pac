@@ -113,50 +113,6 @@ technology tht -- don't care here
 [ROUTE_RESTRICT END]
 
 [VIA_RESTRICT BEGIN]
-	[TOP BEGIN]
-		[LINE BEGIN]
-			start x -2.0 y -3.0
-			end   x  2.0 y -3.0
-			width 1.0
-		[LINE END]
-		[LINE BEGIN]
-			start x  2.0 y -3.0
-			end   x  2.0 y  3.0
-			width 1.0
-		[LINE END]
-		[LINE BEGIN]
-			start x  2.0 y  3.0
-			end   x -2.0 y  3.0
-			width 1.0
-		[LINE END]
-		[LINE BEGIN]
-			start x -2.0 y  3.0
-			end   x -2.0 y -3.0
-			width 1.0
-		[LINE END]
-	[TOP END]
-	[BOTTOM BEGIN]
-		[LINE BEGIN]
-			start x -2.0 y -3.0
-			end   x  2.0 y -3.0
-			width 1.0
-		[LINE END]
-		[LINE BEGIN]
-			start x  2.0 y -3.0
-			end   x  2.0 y  3.0
-			width 1.0
-		[LINE END]
-		[LINE BEGIN]
-			start x  2.0 y  3.0
-			end   x -2.0 y  3.0
-			width 1.0
-		[LINE END]
-		[LINE BEGIN]
-			start x -2.0 y  3.0
-			end   x -2.0 y -3.0
-			width 1.0
-		[LINE END]
-	[BOTTOM END]
 [VIA_RESTRICT END]
 
 
