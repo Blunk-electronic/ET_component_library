@@ -32,7 +32,7 @@ technology tht
 			meaning name
 			position x -0.000 y -3.0 rotation 0.00
 			size 1.000
-			line_width 0.15
+			linewidth 0.15
 			alignment horizontal left vertical center
 		[PLACEHOLDER END]
 
@@ -40,7 +40,7 @@ technology tht
 			meaning purpose
 			position x -0.000 y -6.0 rotation 0.00
 			size 1.000
-			line_width 0.15
+			linewidth 0.15
 			alignment horizontal left vertical center
 		[PLACEHOLDER END]
 	[TOP END]
@@ -65,7 +65,7 @@ technology tht
 			meaning value
 			position x -0.000 y -4.5 rotation 0.00
 			size 1.000
-			line_width 0.15
+			linewidth 0.15
 			alignment horizontal left vertical center
 		[PLACEHOLDER END]
 
