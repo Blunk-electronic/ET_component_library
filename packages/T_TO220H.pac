@@ -53,6 +53,26 @@ technology tht
 [ASSEMBLY_DOCUMENTATION END]
 
 
+-- [CONDUCTOR BEGIN]
+-- 	[TOP BEGIN]
+-- 		[LINE BEGIN]
+-- 			start x -4    y -4
+-- 			end   x  4    y -4
+-- 			width 0.4
+-- 		[LINE END]
+-- 
+-- 		[TEXT BEGIN]
+-- 			content "2"
+-- 			position x 0 y -3.5 rotation 0.00
+-- 			size 1.00
+-- 			linewidth 0.150
+-- 			alignment horizontal center vertical bottom
+-- 		[TEXT END]
+-- 	[TOP END]
+-- [CONDUCTOR END]
+
+
+
 
 -- [SILKSCREEN BEGIN]
 -- 	[TOP BEGIN]
@@ -124,7 +144,7 @@ technology tht
 				[CIRCLE END]
 			[BOTTOM END]
 		[PAD_CONTOURS_THT END]
-		width_inner_layers 1.500
+		width_inner_layers 0.800
 		hole drilled
 		drill_size 0.8
 	[TERMINAL END]
@@ -177,7 +197,7 @@ technology tht
 				[CIRCLE END]
 			[BOTTOM END]
 		[PAD_CONTOURS_THT END]
-		width_inner_layers 1.500
+		width_inner_layers 0.800
 		hole drilled
 		drill_size 0.8
 	[TERMINAL END]
@@ -201,7 +221,7 @@ technology tht
 				[CIRCLE END]
 			[BOTTOM END]
 		[PAD_CONTOURS_THT END]
-		width_inner_layers 1.500
+		width_inner_layers 0.800
 		hole drilled
 		drill_size 0.8
 	[TERMINAL END]
