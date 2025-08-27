@@ -41,7 +41,7 @@ technology smt
 			meaning name
 			position x -2.000 y -6.0 rotation 0.00
 			size 1.000
-			line_width 0.15
+			linewidth 0.15
 			alignment horizontal right vertical bottom
 		[PLACEHOLDER END]
 
@@ -49,7 +49,7 @@ technology smt
 			meaning value
 			position x -2.000 y -8.000 rotation 0.00
 			size 1.000
-			line_width 0.150
+			linewidth 0.150
 			alignment horizontal center vertical bottom
 		[PLACEHOLDER END]
 
@@ -64,7 +64,7 @@ technology smt
 -- 			meaning value
 -- 			position x 0.000 y -5.000 rotation 90.00
 -- 			size 1.000
--- 			line_width 0.150
+-- 			linewidth 0.150
 -- 			alignment horizontal center vertical bottom
 -- 		[PLACEHOLDER END]
 	[TOP END]
@@ -90,7 +90,7 @@ technology smt
 			content "1"
 			position x 0.000 y 2.0 rotation 45.00
 			size 1.000
-			line_width 0.15
+			linewidth 0.15
 			alignment horizontal left vertical bottom
 		[TEXT END]
 	[TOP END]
@@ -99,7 +99,7 @@ technology smt
 			content "L"
 			position x 0.000 y 0.0 rotation 0.00
 			size 1.000
-			line_width 0.2
+			linewidth 0.2
 			alignment horizontal left vertical bottom
 		[TEXT END]
 	[BOTTOM END]
