@@ -78,38 +78,15 @@ technology smt
 	[BOTTOM BEGIN]
 	[BOTTOM END]
 [KEEPOUT END]
-[CONDUCTOR BEGIN]
-	[TOP BEGIN]
--- 		[LINE BEGIN]
--- 			start x -1.0 y 0
--- 			end x 1 y 0
--- 			width 0.150
--- 		[LINE END]
 
-		[TEXT BEGIN]
-			content "1"
-			position x 0.000 y 2.0 rotation 45.00
-			size 1.000
-			linewidth 0.15
-			alignment horizontal left vertical bottom
-		[TEXT END]
-	[TOP END]
-	[BOTTOM BEGIN]
-		[TEXT BEGIN]
-			content "L"
-			position x 0.000 y 0.0 rotation 0.00
-			size 1.000
-			linewidth 0.2
-			alignment horizontal left vertical bottom
-		[TEXT END]
-	[BOTTOM END]
-[CONDUCTOR END]
+
 [STOPMASK BEGIN]
 	[TOP BEGIN]
 	[TOP END]
 	[BOTTOM BEGIN]
 	[BOTTOM END]
 [STOPMASK END]
+
 [STENCIL BEGIN]
 	[TOP BEGIN]
 	[TOP END]
@@ -127,8 +104,10 @@ technology smt
 	
 [VIA_RESTRICT BEGIN]
 [VIA_RESTRICT END]
+
 [PCB_CONTOURS_NON_PLATED BEGIN]
 [PCB_CONTOURS_NON_PLATED END]
+
 [TERMINALS BEGIN]
 	[TERMINAL BEGIN]
 		name 1
