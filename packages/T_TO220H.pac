@@ -3,7 +3,7 @@
 -- ====================================================================================================
 
 description "imperial THT TO220 horizontal"
-appearance real
+bom_relevant yes
 technology tht
 
 [SILKSCREEN BEGIN]

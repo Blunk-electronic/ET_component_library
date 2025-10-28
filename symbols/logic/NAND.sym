@@ -63,7 +63,7 @@ appearance pcb
         sensitivity_level high
         length 5
         rotation 180
-        port_name_visible no
+        port_name_visible yes
         port_name_size 1.30
         terminal_name_visible yes
         terminal_name_size 1.30
@@ -76,7 +76,7 @@ appearance pcb
         sensitivity_level high
         length 5
         rotation 180
-        port_name_visible no
+        port_name_visible yes
         port_name_size 1.30
         terminal_name_visible yes
         terminal_name_size 1.30
@@ -90,7 +90,7 @@ appearance pcb
         weakness none
         length 5
         rotation 0
-        port_name_visible no
+        port_name_visible yes
         port_name_size 1.30
         terminal_name_visible yes
         terminal_name_size 1.30

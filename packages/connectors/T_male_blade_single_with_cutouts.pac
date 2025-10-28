@@ -3,7 +3,7 @@
 -- ====================================================================================================
 
 description ""
-appearance real
+bom_relevant yes
 technology tht
 
 [PCB_CONTOURS_NON_PLATED BEGIN]

@@ -3,7 +3,7 @@
 -- ====================================================================================================
 
 description ""
-appearance virtual
+bom_relevant no
 technology smt
 [SILKSCREEN BEGIN]
 	[TOP BEGIN]

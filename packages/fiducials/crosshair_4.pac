@@ -3,7 +3,7 @@
 -- ====================================================================================================
 
 description ""
-appearance virtual
+bom_relevant no
 technology tht -- don't care here
 
 [SILKSCREEN BEGIN]

@@ -3,7 +3,7 @@
 -- ====================================================================================================
 
 description "imperial SMT 1206 package"
-appearance real
+bom_relevant yes
 technology smt
 
 [SILKSCREEN BEGIN]
