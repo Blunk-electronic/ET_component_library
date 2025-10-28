@@ -3,7 +3,7 @@
 -- ====================================================================================================
 
 description ""
-appearance real
+bom_relevant yes
 technology tht -- don't care here
 
 [SILKSCREEN BEGIN]
