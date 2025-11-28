@@ -57,7 +57,7 @@ appearance pcb
 [PORTS BEGIN]
     [PORT BEGIN]
         name I1
-        position x -10 y  4
+        position x -10 y  5
         direction input_digital
         sensitivity_edge none
         sensitivity_level high
@@ -70,7 +70,7 @@ appearance pcb
     [PORT END]
     [PORT BEGIN]
         name I2
-        position x -10 y -4
+        position x -10 y -5
         direction input_digital
         sensitivity_edge none
         sensitivity_level high

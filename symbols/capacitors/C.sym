@@ -38,9 +38,9 @@ appearance pcb
 [PORTS BEGIN]
 	[PORT BEGIN]
 		name 1
-		position x 0 y 4
+		position x 0 y 5
 		direction passive
-		length 3.5
+		length 4.5
 		rotation 90
 		port_name_visible no
 		port_name_size 1.30
@@ -49,9 +49,9 @@ appearance pcb
 	[PORT END]
 	[PORT BEGIN]
 		name 2
-		position x 0 y -4
+		position x 0 y -5
 		direction passive
-		length 3.5
+		length 4.5
 		rotation -90
 		port_name_visible no
 		port_name_size 1.30
