@@ -53,6 +53,7 @@ technology smt
 			alignment horizontal center vertical bottom
 		[PLACEHOLDER END]
 
+		
 	[TOP END]
 	[BOTTOM BEGIN]
 	[BOTTOM END]
@@ -60,14 +61,15 @@ technology smt
 
 [ASSEMBLY_DOCUMENTATION BEGIN]
 	[TOP BEGIN]
--- 		[PLACEHOLDER BEGIN]
--- 			meaning value
--- 			position x 0.000 y -5.000 rotation 90.00
--- 			size 1.000
--- 			linewidth 0.150
--- 			alignment horizontal center vertical bottom
--- 		[PLACEHOLDER END]
+		-- [PLACEHOLDER BEGIN]
+		-- 	meaning value
+		-- 	position x -2.000 y -8.000 rotation 0.00
+		-- 	size 1.000
+		-- 	linewidth 0.150
+		-- 	alignment horizontal center vertical bottom
+		-- [PLACEHOLDER END]
 	[TOP END]
+
 	[BOTTOM BEGIN]
 	[BOTTOM END]
 [ASSEMBLY_DOCUMENTATION END]
