@@ -44,24 +44,16 @@ technology tht -- don't care here
 
 [ROUTE_RESTRICT BEGIN]
 	[TOP BEGIN]
-		[ZONE BEGIN]
-			[CONTOURS BEGIN]
-				[CIRCLE BEGIN]
-					center x 0 y 0
-					radius 2.4
-				[CIRCLE END]
-			[CONTOURS END]
-		[ZONE END]
+		[CIRCLE BEGIN]
+			center x 0 y 0
+			radius 2.4
+		[CIRCLE END]
 	[TOP END]
 	[BOTTOM BEGIN]
-		[ZONE BEGIN]
-			[CONTOURS BEGIN]
-				[CIRCLE BEGIN]
-					center x 0 y 0
-					radius 2.4
-				[CIRCLE END]
-			[CONTOURS END]
-		[ZONE END]
+		[CIRCLE BEGIN]
+			center x 0 y 0
+			radius 2.4
+		[CIRCLE END]
 	[BOTTOM END]
 [ROUTE_RESTRICT END]
 
