@@ -113,6 +113,7 @@ technology smt
 [TERMINALS BEGIN]
 	[TERMINAL BEGIN]
 		name 1
+		face top
 		technology smt
 		position x -2.925 y 3.810 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
@@ -133,13 +134,11 @@ technology smt
 				end x -1.000 y -0.300
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
-		face top
-		solder_paste_shape shrink_pad
-		solder_paste_shrink_factor 0.8
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
 		name 2
+		face top
 		technology smt
 		position x -2.925 y 2.540 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
@@ -160,32 +159,11 @@ technology smt
 				end x -1.000 y -0.300
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
-		face top
-		
-		solder_paste_shape user_specific
-		[STENCIL_CONTOURS BEGIN]
-			[LINE BEGIN]
-				start x -0.600 y -0.200
-				end x 0.600 y -0.200
-			[LINE END]
-			[LINE BEGIN]
-				start x 0.600 y -0.200
-				end x 0.600 y 0.200
-			[LINE END]
-			[LINE BEGIN]
-				start x 0.600 y 0.200
-				end x -0.600 y -0.200
-			[LINE END]
--- 			[LINE BEGIN]
--- 				start x -0.600 y 0.200
--- 				end x -0.600 y -0.200
--- 			[LINE END]
-		[STENCIL_CONTOURS END]
-
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
 		name 3
+		face top
 		technology smt
 		position x -2.925 y 1.270 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
@@ -206,11 +184,11 @@ technology smt
 				end x -1.000 y -0.300
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
-		face top
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
 		name 4
+		face top
 		technology smt
 		position x -2.925 y 0.000 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
@@ -231,11 +209,11 @@ technology smt
 				end x -1.000 y -0.300
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
-		face top
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
 		name 5
+		face top
 		technology smt
 		position x -2.925 y -1.270 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
@@ -256,11 +234,11 @@ technology smt
 				end x -1.000 y -0.300
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
-		face top
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
 		name 6
+		face top
 		technology smt
 		position x -2.925 y -2.540 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
@@ -281,11 +259,11 @@ technology smt
 				end x -1.000 y -0.300
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
-		face top
 	[TERMINAL END]
 	
 	[TERMINAL BEGIN]
 		name 7
+		face top
 		technology smt
 		position x -2.925 y -3.810 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
@@ -306,11 +284,11 @@ technology smt
 				end x -1.000 y -0.300
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
-		face top
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
 		name 8
+		face top
 		technology smt
 		position x 2.925 y -3.810 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
@@ -331,11 +309,11 @@ technology smt
 				end x -1.000 y -0.300
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
-		face top
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
 		name 9
+		face top
 		technology smt
 		position x 2.925 y -2.540 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
@@ -356,11 +334,11 @@ technology smt
 				end x -1.000 y -0.300
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
-		face top
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
 		name 10
+		face top
 		technology smt
 		position x 2.925 y -1.270 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
@@ -381,11 +359,11 @@ technology smt
 				end x -1.000 y -0.300
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
-		face top
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
 		name 11
+		face top
 		technology smt
 		position x 2.925 y 0 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
@@ -406,11 +384,11 @@ technology smt
 				end x -1.000 y -0.300
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
-		face top
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
 		name 12
+		face top
 		technology smt
 		position x 2.925 y 1.27 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
@@ -431,11 +409,11 @@ technology smt
 				end x -1.000 y -0.300
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
-		face top
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
 		name 13
+		face top
 		technology smt
 		position x 2.925 y 2.54 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
@@ -456,11 +434,11 @@ technology smt
 				end x -1.000 y -0.300
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
-		face top
 	[TERMINAL END]
 
 	[TERMINAL BEGIN]
 		name 14
+		face top
 		technology smt
 		position x 2.925 y 3.81 rotation 0.00
 		[PAD_CONTOURS_SMT BEGIN]
@@ -481,7 +459,6 @@ technology smt
 				end x -1.000 y -0.300
 			[LINE END]
 		[PAD_CONTOURS_SMT END]
-		face top
 	[TERMINAL END]
 
 	
