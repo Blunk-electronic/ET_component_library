@@ -39,20 +39,11 @@ technology smt
 			
 		[PLACEHOLDER BEGIN]
 			meaning name
-			position x -2.000 y -6.0 rotation 0.00
+			position x -0.000 y -6.0 rotation 0.00
 			size 1.000
 			linewidth 0.15
 			alignment horizontal right vertical bottom
 		[PLACEHOLDER END]
-
-		[PLACEHOLDER BEGIN]
-			meaning value
-			position x -2.000 y -8.000 rotation 0.00
-			size 1.000
-			linewidth 0.150
-			alignment horizontal center vertical bottom
-		[PLACEHOLDER END]
-
 		
 	[TOP END]
 	[BOTTOM BEGIN]
@@ -61,13 +52,13 @@ technology smt
 
 [ASSEMBLY_DOCUMENTATION BEGIN]
 	[TOP BEGIN]
-		-- [PLACEHOLDER BEGIN]
-		-- 	meaning value
-		-- 	position x -2.000 y -8.000 rotation 0.00
-		-- 	size 1.000
-		-- 	linewidth 0.150
-		-- 	alignment horizontal center vertical bottom
-		-- [PLACEHOLDER END]
+		[PLACEHOLDER BEGIN]
+			meaning value
+			position x -0.000 y -8.000 rotation 0.00
+			size 1.000
+			linewidth 0.150
+			alignment horizontal center vertical bottom
+		[PLACEHOLDER END]
 	[TOP END]
 
 	[BOTTOM BEGIN]
@@ -97,11 +88,6 @@ technology smt
 [STENCIL END]
 
 [ROUTE_RESTRICT BEGIN]
--- 	[LINE BEGIN]
--- 		start x -1.000 y -1.00
--- 		end x -1.000 y 1.00
--- 		layers 1
--- 	[LINE END]
 [ROUTE_RESTRICT END]
 	
 [VIA_RESTRICT BEGIN]
