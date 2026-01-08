@@ -100,6 +100,33 @@ technology tht
 -- [SILKSCREEN END]
 
 
+
+[STOPMASK BEGIN]
+	[TOP BEGIN]
+		[ZONE BEGIN]
+			[CONTOURS BEGIN]
+				[LINE BEGIN]
+					start x -8    y -5
+					end   x  8    y -5
+				[LINE END]
+				[LINE BEGIN]
+					start x  8    y -5
+					end   x  8    y  24
+				[LINE END]
+				[LINE BEGIN]
+					start x  8    y  24  
+					end   x -8    y  24
+				[LINE END]
+				[LINE BEGIN]
+					start x -8    y  24
+					end   x -8    y -5
+				[LINE END]
+			[CONTOURS END]
+		[ZONE END]
+	[TOP END]
+[STOPMASK END]
+
+
 [KEEPOUT BEGIN]
 	[TOP BEGIN]
 		[ZONE BEGIN]
