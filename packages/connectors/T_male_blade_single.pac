@@ -5,15 +5,25 @@
 description ""
 bom_relevant yes
 technology tht
+
+[PCB_CONTOURS_NON_PLATED BEGIN]
+	[HOLE BEGIN]
+		[CIRCLE BEGIN]
+			center x -2 y 3
+			radius 1
+		[CIRCLE END]	
+	[HOLE END]
+	
+	[HOLE BEGIN]
+		[CIRCLE BEGIN]
+			center x -2 y -3
+			radius 1
+		[CIRCLE END]	
+	[HOLE END]	
+[PCB_CONTOURS_NON_PLATED END]
+
 [SILKSCREEN BEGIN]
 	[TOP BEGIN]
-		[ARC BEGIN]
-			start x -5 y 0
-			center x 0 y 0
-			end x 5 y 0
-			width 0.2
-			direction ccw
-		[ARC END]
 		[LINE BEGIN]
 			start x -3 y 1.5
 			end x 3 y 1.5
@@ -36,14 +46,14 @@ technology tht
 		[LINE END]
 		[PLACEHOLDER BEGIN]
 			meaning name
-			position x 3.5 y 0 rotation 0.00
+			position x 4 y 1.5 rotation 0.00
 			size 1.500
 			linewidth 0.150
 			alignment horizontal left vertical center
 		[PLACEHOLDER END]
 		[PLACEHOLDER BEGIN]
 			meaning purpose
-			position x 3.5 y -2 rotation 0.00
+			position x 4 y -1.5 rotation 0.00
 			size 1.500
 			linewidth 0.150
 			alignment horizontal left vertical center

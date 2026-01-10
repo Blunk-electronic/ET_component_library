@@ -2,7 +2,7 @@
 -- date 2019-02-21T08:33:02
 -- ====================================================================================================
 
-description ""
+description "SO14 package"
 bom_relevant yes
 technology smt
 [SILKSCREEN BEGIN]
@@ -22,29 +22,24 @@ technology smt
 			end x 1.800 y -4.375
 			width 0.150
 		[LINE END]
-
-		-- pin 1 mark
-		[ARC BEGIN]
-			start x 0.50 y 4.375
-			center x 0 y 4.375
-			end x -0.50 y 4.375
-			width 0.150
-		[ARC END]
-			
 		[LINE BEGIN]
 			start x 1.800 y -4.375
 			end x -1.800 y -4.375
 			width 0.150
 		[LINE END]
-			
+		[ARC BEGIN]
+			start x 0.50 y 4.375
+			center x 0 y 4.375
+			end x -0.50 y 4.375
+			width 0.150
+		[ARC END]			
 		[PLACEHOLDER BEGIN]
 			meaning name
 			position x -0.000 y -6.0 rotation 0.00
 			size 1.000
 			linewidth 0.15
 			alignment horizontal right vertical bottom
-		[PLACEHOLDER END]
-		
+		[PLACEHOLDER END]		
 	[TOP END]
 	[BOTTOM BEGIN]
 	[BOTTOM END]
