@@ -31,7 +31,7 @@ technology smt
 			content "TOP"
 			position x 0.000 y 0.0 rotation 0.00
 			size 1.000
-			line_width 0.15
+			linewidth 0.15
 			alignment horizontal left vertical center
 		[TEXT END]
 	[TOP END]
